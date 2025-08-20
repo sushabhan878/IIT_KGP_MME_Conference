@@ -6,12 +6,12 @@ const Sponsorships = () => {
         <PageLayout>
             <div className="container mx-auto py-12 px-4">
                 <h1 className="text-3xl font-bold mb-6">Sponsorships</h1>
-                
+
                 <div className="prose max-w-none mb-8">
                     <p className="mb-4">Support the International Conference on Advanced Materials for Sustainable Energy Systems and connect with leading researchers, academics, and industry professionals in the field of materials engineering.</p>
-                    <p className="mb-4">We offer various sponsorship packages to suit your organization's needs and budget.</p>
+                    <p className="mb-4">We offer various sponsorship packages to suit your organization needs and budget.</p>
                 </div>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                     <div className="border rounded-lg overflow-hidden">
                         <div className="bg-blue-600 text-white p-4 text-center">
@@ -28,7 +28,7 @@ const Sponsorships = () => {
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div className="border rounded-lg overflow-hidden">
                         <div className="bg-gray-700 text-white p-4 text-center">
                             <h3 className="text-xl font-bold">Silver Sponsor</h3>
@@ -43,7 +43,7 @@ const Sponsorships = () => {
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div className="border rounded-lg overflow-hidden">
                         <div className="bg-yellow-600 text-white p-4 text-center">
                             <h3 className="text-xl font-bold">Bronze Sponsor</h3>
@@ -59,7 +59,7 @@ const Sponsorships = () => {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="bg-gray-50 p-6 rounded-lg">
                     <h2 className="text-2xl font-semibold mb-4">Contact for Sponsorship</h2>
                     <p className="mb-4">For more information about sponsorship opportunities, please contact:</p>
