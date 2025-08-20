@@ -32,7 +32,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
@@ -63,7 +63,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
@@ -89,7 +89,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <address className="not-italic text-gray-300">
@@ -98,18 +98,21 @@ const Footer = () => {
               <p className="mb-2">Kharagpur, West Bengal 721302</p>
               <p className="mb-2">
                 <a href="mailto:conference@mme.iitkgp.ac.in" className="hover:text-white transition-colors duration-300">
-                  conference@mme.iitkgp.ac.in
+                  fseam.iitkgp.2025@gmail.com
                 </a>
               </p>
               <p>
                 <a href="tel:+919876543210" className="hover:text-white transition-colors duration-300">
-                  +91 9876543210
+                  +91 8777804922
+                </a>
+                <a href="tel:+919876543210" className="hover:text-white transition-colors duration-300">
+                  +91 8757764641
                 </a>
               </p>
             </address>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400">&copy; {new Date().getFullYear()} IIT KGP MME Conference. All rights reserved.</p>
           <div className="mt-4 md:mt-0">
