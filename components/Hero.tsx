@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              IIT KGP Metallurgical & Materials Engineering Conference 2025
+              <span className='text-5xl'>International Conference</span> on Frontiers in Surface Engineering and Additive Manufacturing
             </h1>
             <p className="text-xl mb-8">
               Exploring Advanced Materials and Critical Minerals for Sustainable Energy Transformation

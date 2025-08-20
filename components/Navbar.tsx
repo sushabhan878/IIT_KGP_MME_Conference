@@ -15,13 +15,14 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex">
-            <div className="flex-shrink-0 flex items-center">
-              <Link href="/" className="text-xl font-bold text-blue-800">
-                IIT KGP MME Conference
+            <div className="flex-shrink-0 flex items-center space-x-2">
+              <Link href="/" className="flex items-center">
+                <img src="/fseam.svg" alt="Conference Logo" className="h-15 w-15 rounded-full" />
+                <span className="ml-2 text-xl font-bold text-blue-800">International Conference</span>
               </Link>
             </div>
           </div>
-          
+
           {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-4">
             <Link href="/" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
@@ -49,10 +50,10 @@ const Navbar = () => {
               Contact Us
             </Link>
           </div>
-          
+
           {/* Mobile menu button */}
           <div className="-mr-2 flex md:hidden">
-            <button 
+            <button
               onClick={toggleMenu}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
             >
