@@ -6,6 +6,7 @@ import ImportantDates from '@/components/ImportantDates'
 import ConferenceTopics from '@/components/ConferenceTopics'
 import VenueInfo from '@/components/VenueInfo'
 import Footer from '@/components/Footer'
+import Link from 'next/link'
 
 const Home = () => {
   return (
@@ -24,18 +25,18 @@ const Home = () => {
               Be part of this collaborative platform that will shape the future of energy through innovation of materials.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a
+              <Link
                 href="/registration"
                 className="bg-white text-blue-800 hover:bg-blue-100 px-6 py-3 rounded-md font-medium transition-colors duration-300"
               >
                 Register Now
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/sponsorships"
                 className="border border-white text-white hover:bg-white hover:text-blue-800 px-6 py-3 rounded-md font-medium transition-colors duration-300"
               >
                 Become a Sponsor
-              </a>
+              </Link>
             </div>
           </div>
         </section>
