@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +18,13 @@ const Navbar = () => {
           <div className="flex">
             <div className="flex-shrink-0 flex items-center space-x-2">
               <Link href="/" className="flex items-center">
-                <img src="/fseam.svg" alt="Conference Logo" className="h-15 w-15 rounded-full" />
+                <Image
+                  src="/fseam.svg"
+                  alt="Conference Logo"
+                  className="h-15 w-15 rounded-full"
+                  width={30}
+                  height={30}
+                />
                 <span className="ml-2 text-xl font-bold text-blue-800">International Conference</span>
               </Link>
             </div>
