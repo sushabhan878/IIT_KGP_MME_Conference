@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const VenueInfo = () => {
@@ -11,13 +12,13 @@ const VenueInfo = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="rounded-lg overflow-hidden shadow-lg">
-            <img 
-              src="/iitkgpvectornobg.png" 
-              alt="IIT Kharagpur Campus" 
+            <Image
+              src="/iitkgpvectornobg.png"
+              alt="IIT Kharagpur Campus"
               className="w-full h-auto"
             />
           </div>
-          
+
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">IIT Kharagpur</h3>
             <p className="text-lg text-gray-700 mb-6">
@@ -46,9 +47,9 @@ const VenueInfo = () => {
                 </li>
               </ul>
             </div>
-            <a 
-              href="https://www.google.com/maps/place/IIT+Kharagpur" 
-              target="_blank" 
+            <a
+              href="https://www.google.com/maps/place/IIT+Kharagpur"
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-800 hover:bg-blue-900"
             >
