@@ -10,8 +10,11 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               <span className='text-5xl'>International Conference</span> on Frontiers in Surface Engineering and Additive Manufacturing
             </h1>
-            <p className="text-xl mb-8">
+            <p className="text-xl mb-6">
               Exploring Advanced Materials and Critical Minerals for Sustainable Energy Transformation
+            </p>
+            <p className="text-lg mb-8 italic">
+              December 3-6, 2023 | IIT Kharagpur, India
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -32,35 +35,11 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute -top-16 -left-16 w-32 h-32 bg-blue-500 rounded-full opacity-20"></div>
               <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-blue-400 rounded-full opacity-20"></div>
-              <div className="relative bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm p-8 rounded-lg border border-white border-opacity-20">
-                <h2 className="text-2xl font-bold mb-4">Conference Highlights</h2>
-                <ul className="space-y-2">
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 mr-2 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <span>Expert Speakers & Panels</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 mr-2 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <span>Networking Opportunities</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 mr-2 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <span>Research Presentations</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 mr-2 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <span>Industry Exhibitions</span>
-                  </li>
-                </ul>
-              </div>
+              <img
+                src="/iitkgpvectornobg.png"
+                alt="IIT Kharagpur"
+                className="w-full h-auto rounded-4xl shadow-5xl"
+              />
             </div>
           </div>
         </div>

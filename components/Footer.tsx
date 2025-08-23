@@ -114,7 +114,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">&copy; {new Date().getFullYear()} Internationnal Conference IIT Kharagpur. All rights reserved.</p>
+          <p className="text-gray-400">&copy; {new Date().getFullYear()} International Conference on Frontiers in Surface Engineering and Additive Manufacturing, IIT Kharagpur. All rights reserved.</p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6">
               <li>

@@ -17,8 +17,8 @@ const AboutConference = () => {
             <p className="text-lg text-gray-700 mb-6">
               From high-performance alloys to rare earth elements, and from energy storage innovations to eco-friendly mining and circular materials economy, the discussions will illuminate how cutting-edge science is redefining the role of materials in energy systems.
             </p>
-            <p className="text-lg text-gray-700">
-              Be part of a collaborative platform that will shape the future of energy through innovation of materials.
+            <p className="text-lg text-gray-700 font-semibold">
+              Mark your calendars for the International Conference on Frontiers in Surface Engineering and Additive Manufacturing, taking place from December 3rd to 6th, 2023 at IIT Kharagpur.
             </p>
           </div>
 
