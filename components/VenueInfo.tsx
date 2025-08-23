@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import React from 'react';
 
 const VenueInfo = () => {
@@ -12,11 +12,7 @@ const VenueInfo = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="rounded-lg overflow-hidden shadow-lg">
-            <Image
-              src="/iitkgpvectornobg.png"
-              alt="IIT Kharagpur Campus"
-              className="w-full h-auto"
-            />
+
           </div>
 
           <div>
