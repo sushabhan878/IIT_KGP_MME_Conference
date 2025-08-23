@@ -57,10 +57,10 @@ const ImportantDates = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Important Dates</h2>
           <div className="w-24 h-1 bg-blue-800 mx-auto"></div>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            Mark these key dates in your calendar to ensure you don't miss any deadlines for the conference.
+            Mark these key dates in your calendar to ensure you do not miss any deadlines for the conference.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {dates.map((item, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-800 transition-all hover:shadow-xl">
@@ -76,10 +76,10 @@ const ImportantDates = () => {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-12 text-center">
-          <a 
-            href="/registration" 
+          <a
+            href="/registration"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-800 hover:bg-blue-900"
           >
             Register Now
