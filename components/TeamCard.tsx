@@ -21,6 +21,8 @@ const TeamCard = ({ image, name, title, socials }: TeamCardProps) => {
                         className="relative w-full h-full object-cover rounded-full transition-transform duration-700 ease-in-out group-hover:scale-85 group-hover:shadow-[0_0_0_14px_#f7f5ec]"
                         src={image}
                         alt={name}
+                        width={128}
+                        height={128}
                     />
                 </div>
                 <div className="team-content">
