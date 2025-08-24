@@ -46,7 +46,7 @@ const TeamCard = ({ image, name, title, socials }: TeamCardProps) => {
 const Team = () => {
     const members = [
         {
-            image: "https://www.gaabesu.in/mt-content/uploads/2021/01/im.jpg",
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756042405/im_oach5s.jpg",
             name: "Prof. Indranil Manna",
             title: "Chairman",
             socials: [
@@ -57,7 +57,7 @@ const Team = () => {
             ],
         },
         {
-            image: "https://www.iitr.ac.in/cerap2024/img/abstract/jyotsna.jpg",
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756042404/jyotsna_j6o6af.jpg",
             name: "Prof. Jyotsna Dutta Majumdar",
             title: "Convenor",
             socials: [
