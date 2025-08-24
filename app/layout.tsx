@@ -7,6 +7,10 @@ const josefin = Josefin_Sans({
 });
 
 import "./globals.css";
+// Font Awesome
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
 
 export const metadata: Metadata = {
   title: "IIT KGP MME Conference | Advanced Materials for Sustainable Energy",

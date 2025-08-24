@@ -1,36 +1,32 @@
 import React from 'react'
 import PageLayout from '@/components/PageLayout'
+import TeamCard from '@/components/TeamCard'
+
 
 const Organizors = () => {
+    const organizers = [
+        {
+            image: "/organizers/vikram-roy.jpg",
+            name: "Dr. Vikram Roy",
+            title: "Local Arrangements Chair",
+            socials: [
+                { icon: "fas fa-envelope", link: "mailto:vikram.roy@metal.iitkgp.ac.in" },
+                { icon: "fab fa-linkedin", link: "https://www.linkedin.com/" },
+            ],
+        },
+    ];
+
     return (
         <PageLayout>
             <div className="container mx-auto py-12 px-4">
-                <h1 className="text-3xl font-bold mb-6">Organizers</h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div className="text-center">
-                        <div className="w-40 h-40 mx-auto rounded-full bg-gray-200 mb-4 flex items-center justify-center">
-                            <span className="text-gray-500">Photo</span>
-                        </div>
-                        <h3 className="text-xl font-semibold">Prof. Amit Kumar</h3>
-                        <p className="text-gray-600">Conference Chair</p>
-                        <p className="text-sm mt-2">Department of Metallurgical and Materials Engineering</p>
-                    </div>
-                    <div className="text-center">
-                        <div className="w-40 h-40 mx-auto rounded-full bg-gray-200 mb-4 flex items-center justify-center">
-                            <span className="text-gray-500">Photo</span>
-                        </div>
-                        <h3 className="text-xl font-semibold">Dr. Priya Sharma</h3>
-                        <p className="text-gray-600">Technical Program Chair</p>
-                        <p className="text-sm mt-2">Department of Metallurgical and Materials Engineering</p>
-                    </div>
-                    <div className="text-center">
-                        <div className="w-40 h-40 mx-auto rounded-full bg-gray-200 mb-4 flex items-center justify-center">
-                            <span className="text-gray-500">Photo</span>
-                        </div>
-                        <h3 className="text-xl font-semibold">Dr. Rajesh Patel</h3>
-                        <p className="text-gray-600">Organizing Secretary</p>
-                        <p className="text-sm mt-2">Department of Metallurgical and Materials Engineering</p>
-                    </div>
+                <h1 className="text-3xl font-bold mb-4 text-center">Conference Organizers</h1>
+                <p className="text-center text-gray-600 mb-10 max-w-3xl mx-auto">
+                    Meet the dedicated team of professionals from IIT Kharagpur's Department of Metallurgical and Materials Engineering who are organizing this prestigious conference on Advanced Materials for Sustainable Energy.
+                </p>
+                <div className="flex flex-wrap -mx-4">
+                    {organizers.map((organizer, index) => (
+                        <TeamCard key={index} {...organizer} />
+                    ))}
                 </div>
             </div>
         </PageLayout>
