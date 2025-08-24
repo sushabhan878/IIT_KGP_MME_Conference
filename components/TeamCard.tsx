@@ -1,5 +1,6 @@
 import React from "react";
-
+import Link from "next/link";
+import Image from "next/image";
 interface TeamCardProps {
     image: string;
     name: string;
@@ -16,7 +17,7 @@ const TeamCard = ({ image, name, title, socials }: TeamCardProps) => {
             <div className="bg-[#f7f5ec] text-center w-full relative overflow-hidden rounded-xl shadow-md p-6 group">
                 <div className="relative w-32 h-32 mx-auto mb-12">
                     <div className="absolute inset-0 rounded-full bg-blue-600 opacity-90 scale-107 transition-all duration-300 ease-linear group-hover:h-full"></div>
-                    <img
+                    <Image
                         className="relative w-full h-full object-cover rounded-full transition-transform duration-700 ease-in-out group-hover:scale-85 group-hover:shadow-[0_0_0_14px_#f7f5ec]"
                         src={image}
                         alt={name}
@@ -29,11 +30,11 @@ const TeamCard = ({ image, name, title, socials }: TeamCardProps) => {
                 <ul className="absolute bottom-[-100px] left-0 w-full bg-blue-600 flex justify-center space-x-4 py-2 transition-all duration-500 ease-in-out group-hover:bottom-0">
                     {socials.map((social, index) => (
                         <li key={index}>
-                            <a
+                            <Link
                                 href={social.link}
                                 className={`${social.icon} text-lg p-2 transition-colors duration-300 hover:text-blue-600 hover:bg-[#f7f5ec] rounded-full`}
                                 aria-hidden="true"
-                            ></a>
+                            ></Link>
                         </li>
                     ))}
                 </ul>
