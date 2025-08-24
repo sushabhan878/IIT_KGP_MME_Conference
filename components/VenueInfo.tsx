@@ -21,7 +21,7 @@ const VenueInfo = () => {
             </p>
             <div className="bg-white p-6 rounded-lg shadow-md mb-6">
               <h4 className="text-xl font-semibold text-blue-800 mb-3">How to Reach</h4>
-              <ul className="space-y-3">
+              <ul className="space-y-3 text-gray-900">
                 <li className="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2 text-blue-800 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
