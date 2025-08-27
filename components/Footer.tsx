@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">IIT KGP MME Conference</h3>
+            <h3 className="text-xl font-bold mb-4">FSEAM 2026, IIT KHARAGPUR</h3>
             <p className="text-gray-300 mb-4">
               Exploring Advanced Materials and Critical Minerals for Sustainable Energy Transformation
             </p>
@@ -102,7 +102,7 @@ const Footer = () => {
                 </a>
               </p>
               <p>
-                <a href="tel:+919876543210" className="hover:text-white transition-colors duration-300">
+                <a href="tel:+919876543210" className="hover:text-white transition-colors duration-300 mr-4">
                   +91 8777804922
                 </a>
                 <a href="tel:+919876543210" className="hover:text-white transition-colors duration-300">
