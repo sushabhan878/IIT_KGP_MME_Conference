@@ -34,7 +34,7 @@ const Hero = () => {
                 Exploring Advanced Materials and Critical Minerals for Sustainable Energy Transformation
               </p>
               <p className="text-lg mb-8 italic">
-                December 3-6, 2023 | IIT Kharagpur, India
+                January 21-23, 2026 | IIT Kharagpur, India
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link

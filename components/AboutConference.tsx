@@ -12,16 +12,15 @@ const AboutConference = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg text-gray-700 mb-6">
-              As global industries pivot toward cleaner energy, the strategic deployment of advanced materials and critical minerals becomes essential for achieving sustainable transformation. This conference brings together renowned experts from academia, industry, and research to explore current developments and challenges in tailoring these materials for the energy landscape.
+              The International Conference on Frontiers in Surface Engineering and Additive Manufacturing (FSEAM 2026) will be held from January 21–23, 2026 at IIT Kharagpur. The event will bring together experts from academia, industry, and research to discuss the latest developments in surface engineering and additive manufacturing.
             </p>
             <p className="text-lg text-gray-700 mb-6">
-              From high-performance alloys to rare earth elements, and from energy storage innovations to eco-friendly mining and circular materials economy, the discussions will illuminate how cutting-edge science is redefining the role of materials in energy systems.
+              Key themes include advanced coatings, surface modification, additive manufacturing, hybrid processes, and material applications across sectors such as energy, aerospace, automotive, and biomedical engineering. The conference will focus on how these technologies are driving innovation, efficiency, and sustainability.
             </p>
             <p className="text-lg text-gray-700 font-semibold">
-              Mark your calendars for the International Conference on Frontiers in Surface Engineering and Additive Manufacturing, taking place from December 3rd to 6th, 2023 at IIT Kharagpur.
+              FSEAM 2026 aims to foster collaboration and knowledge exchange, highlighting the transformative role of surface engineering and additive manufacturing in shaping the future of materials and manufacturing.
             </p>
           </div>
-
           <div className="grid grid-cols-2 gap-6">
             <div className="bg-blue-50 p-6 rounded-lg">
               <div className="text-blue-800 mb-3">
