@@ -19,13 +19,13 @@ const Navbar = () => {
             <div className="flex-shrink-0 flex items-center space-x-2">
               <Link href="/" className="flex items-center">
                 <Image
-                  src="/fseam.svg"
+                  src="/fseam.png"
                   alt="Conference Logo"
                   className="h-15 w-15 rounded-full"
-                  width={30}
-                  height={30}
+                  width={20}
+                  height={20}
                 />
-                <span className="ml-2 text-xl font-bold text-blue-800">International Conference</span>
+                <span className="ml-3 mt-2 text-4xl font-bold bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-clip-text">FSEAM 2026</span>
               </Link>
             </div>
           </div>

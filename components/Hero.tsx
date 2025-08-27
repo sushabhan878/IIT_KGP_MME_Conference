@@ -27,7 +27,7 @@ const Hero = () => {
           <div className='text-6xl z-20 font-bold justify-center align-middle flex-center pb-6'>Join Us at <span className='text-7xl text-blue-400'>IIT Kharagpur</span></div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className='z-20'>
-              <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-100 to-blue-500 text-transparent bg-clip-text">
+              <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-100 to-blue-600 text-transparent bg-clip-text">
                 International Conference on Frontiers in Surface Engineering and Additive Manufacturing
               </h1>
               <p className="text-xl mb-6">
