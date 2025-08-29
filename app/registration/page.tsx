@@ -42,6 +42,7 @@ const Registration = () => {
                             </tbody>
                         </table>
                     </div>
+                    <p className="text-gray-600 mt-4"><span className='font-bold text-gray-500'>Note:</span> Registration fees are inclusive of taxes and non-refundable.</p>
                 </div>
                 
                 <div className="bg-gradient-to-r from-blue-400 to-blue-600 font-bold p-6 rounded-lg mb-8">
