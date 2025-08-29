@@ -5,13 +5,9 @@ interface TeamCardProps {
     image: string;
     name: string;
     title: string;
-    socials: {
-        icon: string;
-        link: string;
-    }[];
 }
 
-const TeamCard = ({ image, name, title, socials }: TeamCardProps) => {
+const TeamCard = ({ image, name, title }: TeamCardProps) => {
     return (
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
             <div className="bg-[#f7f5ec] text-center w-full relative overflow-hidden rounded-xl shadow-md p-6 group">
@@ -30,15 +26,7 @@ const TeamCard = ({ image, name, title, socials }: TeamCardProps) => {
                     <h4 className="text-sm text-gray-600 capitalize">{title}</h4>
                 </div>
                 <ul className="absolute bottom-[-100px] left-0 w-full bg-blue-600 flex justify-center space-x-4 py-2 transition-all duration-500 ease-in-out group-hover:bottom-0">
-                    {socials.map((social, index) => (
-                        <li key={index}>
-                            <Link
-                                href={social.link}
-                                className={`${social.icon} text-lg p-2 transition-colors duration-300 hover:text-blue-600 hover:bg-[#f7f5ec] rounded-full`}
-                                aria-hidden="true"
-                            ></Link>
-                        </li>
-                    ))}
+                    
                 </ul>
             </div>
         </div>
@@ -51,24 +39,109 @@ const Team = () => {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756042405/im_oach5s.jpg",
             name: "Prof. Indranil Manna",
             title: "Chairman",
-            socials: [
-                { icon: "fa-facebook", link: "https://codepen.io/collection/XdWJOQ/" },
-                { icon: "fa fa-twitter", link: "https://codepen.io/collection/XdWJOQ/" },
-                { icon: "fa fa-google-plus", link: "https://codepen.io/collection/XdWJOQ/" },
-                { icon: "fa fa-linkedin", link: "https://codepen.io/collection/XdWJOQ/" },
-            ],
         },
         {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756042404/jyotsna_j6o6af.jpg",
             name: "Prof. Jyotsna Dutta Majumdar",
             title: "Convenor",
-            socials: [
-                { icon: "fa fa-facebook", link: "https://codepen.io/collection/XdWJOQ/" },
-                { icon: "fa fa-twitter", link: "https://codepen.io/collection/XdWJOQ/" },
-                { icon: "fa fa-google-plus", link: "https://codepen.io/collection/XdWJOQ/" },
-                { icon: "fa fa-linkedin", link: "https://codepen.io/collection/XdWJOQ/" },
-            ],
-        }
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+            name: "Kishan Kumar",
+            title: "Secretary",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471584/Screenshot_2025-08-29_181123_lw6tfi.png",
+            name: "Siddhartha Roy",
+            title: "Secretary",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+            name: "Tapas Bera",
+            title: "Secretary",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471514/download_kbbqys.jpg",
+            name: "Koushik Biswas",
+            title: "Co-Convenor",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471511/download_1_norbfp.jpg",
+            name: "Indrani Sen",
+            title: "Monitoring",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471511/download_2_gxshet.jpg",
+            name: "Gour Gopal Roy",
+            title: "Treasurer",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471511/download_3_mzkggu.jpg",
+            name: "Chandra Sekhar Tiwary",
+            title: "Co-Convenor",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471511/download_4_utxkm7.jpg",
+            name: "Shiv Brat Singh",
+            title: "Co-Convenor",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471512/download_5_eblguc.jpg",
+            name: "Debalay Chakrabarti",
+            title: "Monitoring",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471512/download_6_cjnvro.jpg",
+            name: "Sumantra Mandal",
+            title: "Monitoring",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471512/download_7_jz1iis.jpg",
+            name: "Tapas Laha",
+            title: "Monitoring",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471512/download_8_xhhgad.jpg",
+            name: "Karabi Das",
+            title: "Monitoring",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756472046/download_9_guqwhs.jpg",
+            name: "Tapas Kumar Bandyopadhyay",
+            title: "Monitoring",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756472047/download_acfqaw.jpg",
+            name: "Sankha Mukherjee",
+            title: "Monitoring",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756472047/download_1_vytrct.jpg",
+            name: "Rahul Mitra",
+            title: "Monitoring",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756472046/dc_pic_zoa71n.jpg",
+            name: "Debjani Chakrabortys",
+            title: "Monitoring",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756472046/download_2_uilubr.jpg",
+            name: "Samit Kumar Ray",
+            title: "Monitoring",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756472046/download_3_pya4od.jpg",
+            name: "Anupam Midya",
+            title: "Secretary",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+            name: " Abhinay Rajput",
+            title: "Secretary",
+        },
+        
+        
     ];
 
     return (
