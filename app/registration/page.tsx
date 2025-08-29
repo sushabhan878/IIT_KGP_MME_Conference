@@ -5,63 +5,68 @@ const Registration = () => {
     return (
         <PageLayout>
             <div className="container mx-auto py-12 px-4">
-                <h1 className="text-3xl font-bold mb-6">Registration</h1>
+                <h1 className="text-5xl font-bold mb-6">Registration</h1>
                 
                 <div className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4">Registration Fees</h2>
                     <div className="overflow-x-auto">
-                        <table className="min-w-full bg-white border">
+                        <table className="min-w-full rounded-lg overflow-hidden shadow-lg bg-white">
                             <thead>
-                                <tr>
-                                    <th className="py-3 px-4 border-b">Category</th>
-                                    <th className="py-3 px-4 border-b">Early Bird (Before June 30)</th>
-                                    <th className="py-3 px-4 border-b">Regular (After June 30)</th>
+                                <tr className="bg-gradient-to-r from-blue-500 to-blue-700 text-white">
+                                    <th className="py-3 px-4 font-semibold text-left">Category</th>
+                                    <th className="py-3 px-4 font-semibold text-left">Early Bird (Before 31 Nov 2025)</th>
+                                    <th className="py-3 px-4 font-semibold text-left">Regular (After 31 Nov 2025)</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td className="py-3 px-4 border-b">Students</td>
-                                    <td className="py-3 px-4 border-b">₹3,000</td>
-                                    <td className="py-3 px-4 border-b">₹4,000</td>
+                            <tbody className="text-gray-700">
+                                <tr className="even:bg-blue-50 odd:bg-white hover:bg-blue-100 transition-colors">
+                                    <td className="py-3 px-4 border-b border-blue-100">Indian Students</td>
+                                    <td className="py-3 px-4 border-b border-blue-100">₹ 5,000</td>
+                                    <td className="py-3 px-4 border-b border-blue-100">₹ 6,000</td>
                                 </tr>
-                                <tr>
-                                    <td className="py-3 px-4 border-b">Academics</td>
-                                    <td className="py-3 px-4 border-b">₹5,000</td>
-                                    <td className="py-3 px-4 border-b">₹6,000</td>
+                                <tr className="even:bg-blue-50 odd:bg-white hover:bg-blue-100 transition-colors">
+                                    <td className="py-3 px-4 border-b border-blue-100">Indian Academics/Scientists</td>
+                                    <td className="py-3 px-4 border-b border-blue-100">₹ 10,000</td>
+                                    <td className="py-3 px-4 border-b border-blue-100">₹ 12,000</td>
                                 </tr>
-                                <tr>
-                                    <td className="py-3 px-4 border-b">Industry Professionals</td>
-                                    <td className="py-3 px-4 border-b">₹8,000</td>
-                                    <td className="py-3 px-4 border-b">₹10,000</td>
+                                <tr className="even:bg-blue-50 odd:bg-white hover:bg-blue-100 transition-colors">
+                                    <td className="py-3 px-4 border-b border-blue-100">Industry Participants</td>
+                                    <td className="py-3 px-4 border-b border-blue-100">₹ 15,000</td>
+                                    <td className="py-3 px-4 border-b border-blue-100">₹ 17,000</td>
+                                </tr>
+                                <tr className="even:bg-blue-50 odd:bg-white hover:bg-blue-100 transition-colors">
+                                    <td className="py-3 px-4 border-b border-blue-100">Foreign Participants</td>
+                                    <td className="py-3 px-4 border-b border-blue-100">$ 700</td>
+                                    <td className="py-3 px-4 border-b border-blue-100">$ 800</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
                 
-                <div className="bg-gray-50 p-6 rounded-lg mb-8">
+                <div className="bg-gradient-to-r from-blue-400 to-blue-600 font-bold p-6 rounded-lg mb-8">
                     <h2 className="text-2xl font-semibold mb-4">Registration Form</h2>
                     <form>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
-                                <label className="block text-sm font-medium mb-1" htmlFor="fullName">Full Name</label>
+                                <label className="block text-sm mb-1" htmlFor="fullName">Full Name</label>
                                 <input type="text" id="fullName" className="w-full px-3 py-2 border rounded-md" />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium mb-1" htmlFor="email">Email</label>
+                                <label className="block text-sm mb-1" htmlFor="email">Email</label>
                                 <input type="email" id="email" className="w-full px-3 py-2 border rounded-md" />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium mb-1" htmlFor="affiliation">Affiliation</label>
+                                <label className="block text-sm mb-1" htmlFor="affiliation">Affiliation</label>
                                 <input type="text" id="affiliation" className="w-full px-3 py-2 border rounded-md" />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium mb-1" htmlFor="category">Category</label>
-                                <select id="category" className="w-full px-3 py-2 border rounded-md">
-                                    <option value="">Select Category</option>
-                                    <option value="student">Student</option>
-                                    <option value="academic">Academic</option>
-                                    <option value="industry">Industry Professional</option>
+                                <label className="block text-sm mb-1" htmlFor="category">Category</label>
+                                <select id="category" className="w-full px-3 py-2 border rounded-md text-white">
+                                    <option className='text-gray-700 bg-blue-200 font-semibold' value="">Select Category</option>
+                                    <option className='text-gray-700 bg-blue-200 font-semibold' value="student">Student</option>
+                                    <option className='text-gray-700 bg-blue-200 font-semibold' value="academic">Academic</option>
+                                    <option className='text-gray-700 bg-blue-200 font-semibold' value="industry">Industry Professional</option>
                                 </select>
                             </div>
                         </div>
