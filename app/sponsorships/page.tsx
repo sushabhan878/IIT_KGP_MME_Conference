@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import PageLayout from '@/components/PageLayout'
 
@@ -9,6 +10,8 @@ const Sponsorships = () => {
 
                 <div className="prose max-w-none mb-8">
                     <p className="mb-4">Sponsorship at FSEAM 2026 offers a unique opportunity to showcase your brand to leading researchers, industry professionals, and academicians in the fields of surface engineering and additive manufacturing. By partnering with us, your organization will gain visibility, connect with potential collaborators, and demonstrate its commitment to advancing sustainable technologies and innovations.</p>
+                    <p className='mb-4'>Join us as a valued sponsor at FSEAM 2026 and showcase your brand to a global audience of researchers, industry leaders, and academicians. Explore our sponsorship opportunities and be part of advancing innovations in surface engineering and additive manufacturing.</p>
+                    <p className='mb-8 font-extrabold text-blue-500 cursor-pointer' onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLScfx65HP5ivkCaE6Cm1AKobg__EfytaRMMydLcZROrgLjqxYw/viewform', '_blank')}>[Click here to fill the Sponsorship Form]</p>
                     <p className="mb-4">We offer various sponsorship packages to suit your organization needs and budget.</p>
                 </div>
 
