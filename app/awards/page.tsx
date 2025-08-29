@@ -5,7 +5,7 @@ const Awards = () => {
     return (
         <PageLayout>
             <div className="container mx-auto py-12 px-4">
-                <h1 className="text-3xl font-bold mb-6">Awards</h1>
+                <h1 className="text-5xl font-bold mb-6">Awards</h1>
                 <div className="prose max-w-none">
                     <p className="mb-4">The International Conference on Advanced Materials for Sustainable Energy Systems recognizes outstanding contributions in the field through the following awards:</p>
                     

@@ -6,7 +6,7 @@ const AboutEvent = () => {
     return (
         <PageLayout>
             <div className="container mx-auto py-12 px-4">
-                <h1 className="text-3xl font-bold mb-6">About Conference</h1>
+                <h1 className="text-5xl font-bold mb-6">About Conference</h1>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
                     <div className="prose max-w-none">
                         <p className="mb-4">The International Conference on Frontiers in Surface Engineering and Additive Manufacturing (FSEAM 2026) will be held from 21st to 23rd January 2026 at IIT Kharagpur, jointly organized by the Department of Metallurgical and Materials Engineering, IIT Kharagpur, and the Birla Institute of Technology, Mesra.</p>

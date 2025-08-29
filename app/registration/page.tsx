@@ -45,8 +45,8 @@ const Registration = () => {
                     <p className="text-gray-600 mt-4"><span className='font-bold text-gray-500'>Note:</span> Registration fees are inclusive of taxes and non-refundable.</p>
                 </div>
                 
-                <div className="bg-gradient-to-r from-blue-400 to-blue-600 font-bold p-6 rounded-lg mb-8">
-                    <h2 className="text-2xl font-semibold mb-4">Registration Form</h2>
+                <div className="bg-gradient-to-r from-blue-500 to-blue-700 font-bold p-6 rounded-lg mb-8">
+                    <h2 className="text-2xl font-bold mb-4">Registration Form</h2>
                     <form>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>

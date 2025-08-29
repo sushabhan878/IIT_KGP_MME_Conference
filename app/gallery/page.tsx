@@ -5,7 +5,7 @@ const Gallery = () => {
     return (
         <PageLayout>
             <div className="container mx-auto py-12 px-4">
-                <h1 className="text-3xl font-bold mb-6">Gallery</h1>
+                <h1 className="text-5xl font-bold mb-6">Gallery</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     {/* Placeholder images - replace with actual conference images */}
                     <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
