@@ -5,19 +5,19 @@ const ContactUs = () => {
     return (
         <PageLayout>
             <div className="container mx-auto py-12 px-4">
-                <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
+                <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
-                        <h2 className="text-xl font-semibold mb-4">Get in Touch</h2>
+                        <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
                         <p className="mb-4">Have questions about the conference? Feel free to reach out to us.</p>
                         <div className="mt-6">
-                            <p className="mb-2"><span className="font-medium">Email:</span> conference@mme.iitkgp.ac.in</p>
-                            <p className="mb-2"><span className="font-medium">Phone:</span> +91-123-456-7890</p>
+                            <p className="mb-2"><span className="font-medium">Email:</span> fseam.iitkgp.2025@gmail.com</p>
+                            <p className="mb-2"><span className="font-medium">Phone:</span> +91 8777804922 | +91 8757764641</p>
                             <p className="mb-2"><span className="font-medium">Address:</span> Department of Metallurgical and Materials Engineering, IIT Kharagpur, West Bengal, India - 721302</p>
                         </div>
                     </div>
-                    <div className="bg-gray-50 p-6 rounded-lg">
-                        <h2 className="text-xl font-semibold mb-4">Contact Form</h2>
+                    <div className="bg-gradient-to-r from-blue-500 to-blue-700 p-6 rounded-lg border-2 border-white">
+                        <h2 className="text-xl font-bold mb-4">Contact Form</h2>
                         <form>
                             <div className="mb-4">
                                 <label className="block text-sm font-medium mb-1" htmlFor="name">Name</label>
