@@ -7,6 +7,7 @@ import ConferenceTopics from '@/components/ConferenceTopics'
 import VenueInfo from '@/components/VenueInfo'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
+import AbstructSubmission from '@/components/AbstructSubmission'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <AboutConference />
         <ConferenceTopics />
         <ImportantDates />
+        <AbstructSubmission/>
         <VenueInfo />
         <section className="py-16 bg-blue-900 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
