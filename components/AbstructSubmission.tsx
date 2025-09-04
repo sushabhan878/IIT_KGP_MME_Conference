@@ -1,3 +1,5 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const AbstructSubmission = () => {
@@ -27,22 +29,24 @@ const AbstructSubmission = () => {
             <strong className='text-black'>Abstract Template:</strong> <span className="text-blue-700">https://shorturl.at/Wxuoq</span>
           </div>
         </div>
-        <a
+        <Link
           href="https://docs.google.com/forms/d/e/1FAIpQLSeMzx1lrdk2zbNZLX19_3G0AyqmJkTgPxTS_bZaUJeRA2S5ow/viewform?usp=header" 
           className="inline-block bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold px-6 py-3 rounded-md shadow hover:from-blue-600 hover:to-blue-800 transition-colors mb-8"
           
         >
           Submit Your Abstract
-        </a>
+        </Link>
 
         {/* QR Code Section */}
         <div className="flex flex-col items-center mt-8">
           <h2 className="text-xl font-semibold mb-2 text-blue-700">Scan to submit your abstract</h2>
           <div className="bg-white p-4 rounded-lg shadow border border-blue-200 flex flex-col items-center">
-            <img
+            <Image
               src="/qr.png"
               alt="QR code for abstract submission"
               className="w-40 h-40 object-contain mb-2"
+              width={160}
+              height={160}
             />
             <span className="text-xs text-gray-500">Scan this QR code to access the abstract submission portal on your mobile device.</span>
           </div>
