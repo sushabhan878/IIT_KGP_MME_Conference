@@ -26,14 +26,15 @@ const AbstructSubmission = () => {
             <strong className='text-black'>Submission Deadline:</strong> <span className="text-blue-700">September 30, 2025</span>
           </div>
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
-            <strong className='text-black'>Abstract Template:</strong> <span className="text-blue-700">https://shorturl.at/Wxuoq</span>
+            <strong className='text-black'>Abstract Template:</strong> <span className="text-blue-700">
+              <Link href="https://shorturl.at/Wxuoq" target='_blank'>https://shorturl.at/Wxuoq</Link>
+            </span>
           </div>
         </div>
         <Link
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeMzx1lrdk2zbNZLX19_3G0AyqmJkTgPxTS_bZaUJeRA2S5ow/viewform?usp=header" 
-          className="inline-block bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold px-6 py-3 rounded-md shadow hover:from-blue-600 hover:to-blue-800 transition-colors mb-8"
-          
-        >
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeqM4bx4wdQSFc9QXSNqrEyHyf7wyff2CqVuxAITNWcGcWAyg/viewform?usp=sharing&ouid=101205680741696444931"
+          target="_blank"
+          className="inline-block bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold px-6 py-3 rounded-md shadow hover:from-blue-600 hover:to-blue-800 transition-colors mb-8">
           Submit Your Abstract
         </Link>
 

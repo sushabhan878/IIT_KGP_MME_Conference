@@ -12,7 +12,6 @@ const Hero = () => {
           loop
           muted
           playsInline
-          poster="/iit-kgp.jpg"
           src="https://res.cloudinary.com/damnmi4ya/video/upload/v1755942647/iitkgp_1_tmoyb9.mp4"
         >
           Your browser does not support the video tag.
