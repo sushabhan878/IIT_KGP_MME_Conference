@@ -139,7 +139,12 @@ const Team = () => {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
             name: "Tapas Bera",
             title: "Joint Secretary",
-        }       
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+            name: "Shree Krishna",
+            title: "Joint Secretary",
+        }    
     ];
 
     return (
