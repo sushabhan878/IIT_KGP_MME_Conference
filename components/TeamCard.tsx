@@ -46,46 +46,26 @@ const Team = () => {
             title: "Convenor",
         },
         {
-            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-            name: "Kishan Kumar",
-            title: "Secretary",
-        },
-        {
-            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471584/Screenshot_2025-08-29_181123_lw6tfi.png",
-            name: "Siddhartha Roy",
-            title: "Secretary",
-        },
-        {
-            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-            name: "Tapas Bera",
-            title: "Secretary",
-        },
-        {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471514/download_kbbqys.jpg",
             name: "Koushik Biswas",
-            title: "Co-Convenor",
+            title: "Joint Convenors",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471511/download_3_mzkggu.jpg",
+            name: "Chandra Sekhar Tiwary",
+            title: "Joint Convenors",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471511/download_4_utxkm7.jpg",
+            name: "Shiv Brat Singh",
+            title: "Joint Convenors",
         },
         {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471511/download_1_norbfp.jpg",
             name: "Indrani Sen",
             title: "Monitoring",
         },
-        {
-            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471511/download_2_gxshet.jpg",
-            name: "Gour Gopal Roy",
-            title: "Treasurer",
-        },
-        {
-            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471511/download_3_mzkggu.jpg",
-            name: "Chandra Sekhar Tiwary",
-            title: "Co-Convenor",
-        },
-        {
-            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471511/download_4_utxkm7.jpg",
-            name: "Shiv Brat Singh",
-            title: "Co-Convenor",
-        },
-        {
+                {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471512/download_5_eblguc.jpg",
             name: "Debalay Chakrabarti",
             title: "Monitoring",
@@ -131,17 +111,35 @@ const Team = () => {
             title: "Monitoring",
         },
         {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471511/download_2_gxshet.jpg",
+            name: "Gour Gopal Roy",
+            title: "Treasurer",
+        },
+        {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756472046/download_3_pya4od.jpg",
             name: "Anupam Midya",
-            title: "Secretary",
+            title: "Joint Secretary",
         },
         {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-            name: " Abhinay Rajput",
-            title: "Secretary",
+            name: "Abhinay Rajput",
+            title: "Joint Secretary",
         },
-        
-        
+                {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+            name: "Kishan Kumar",
+            title: "Joint Secretary",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471584/Screenshot_2025-08-29_181123_lw6tfi.png",
+            name: "Siddhartha Roy",
+            title: "Joint Secretary",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+            name: "Tapas Bera",
+            title: "Joint Secretary",
+        }       
     ];
 
     return (
