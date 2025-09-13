@@ -121,6 +121,11 @@ const Team = () => {
             title: "Joint Secretary",
         },
         {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471584/Screenshot_2025-08-29_181123_lw6tfi.png",
+            name: "Siddhartha Roy",
+            title: "Joint Secretary",
+        },
+        {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
             name: "Abhinay Rajput",
             title: "Joint Secretary",
@@ -128,11 +133,6 @@ const Team = () => {
                 {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
             name: "Kishan Kumar",
-            title: "Joint Secretary",
-        },
-        {
-            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756471584/Screenshot_2025-08-29_181123_lw6tfi.png",
-            name: "Siddhartha Roy",
             title: "Joint Secretary",
         },
         {
