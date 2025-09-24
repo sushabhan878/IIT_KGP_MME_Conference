@@ -27,7 +27,7 @@ const AbstructSubmission = () => {
           </div>
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
             <strong className='text-black'>Abstract Template:</strong> <span className="text-blue-700">
-              <Link href="https://shorturl.at/Wxuoq" target='_blank'>https://shorturl.at/Wxuoq</Link>
+              <Link href="https://res.cloudinary.com/damnmi4ya/raw/upload/v1758735210/Abstract_Template_FSEAM_2025_t2yqpx.docx" download target='_blank'>https://shorturl.at/Wxuoq</Link>
             </span>
           </div>
         </div>

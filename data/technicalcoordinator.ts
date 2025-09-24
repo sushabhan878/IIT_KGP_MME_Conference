@@ -1,42 +1,42 @@
 const technicalCoordinators = [
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-    name: "Mr. Anindya Basu",
+    name: "Prof. Anindya Basu",
     title: "NIT Rourkela",
   },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-    name: "Mr. Manoj Kumar",
+    name: "Dr. Manoj Kumar",
     title: "IMMT",
     },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-    name: "Mr. Partha Protim Chattopadhyay",
+    name: "Prof. Partha Protim Chattopadhyay",
     title: "IIEST",
     },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-    name: "Mr. Sudhanshu Shekhar",
+    name: "Dr. Sudhanshu Shekhar",
     title: "IIT Kanpur",
     },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-    name: "Mr. Supriya Bera",
+    name: "Dr. Supriya Bera",
     title: "NIT Durgapur",
     },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-    name: "Mr. Gururaj",
+    name: "Dr. Gururaj Telasang",
     title: "ARCI",
     },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-    name: "Mr. Gayatri Paul",
+    name: "Dr. Gayatri Paul",
     title: "BIT Mesra",
     },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-    name: "Mr. Bappa Acharya",
+    name: "Dr. Bappa Acharya",
     title: "BIT Mesra",
   },
   {
