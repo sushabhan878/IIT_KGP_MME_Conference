@@ -66,7 +66,7 @@ const organizers = [
         },
         {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756472046/dc_pic_zoa71n.jpg",
-            name: "Prof. Debjani Chakrabortys",
+            name: "Prof. Debjani Chakraborty",
             title: "Monitoring",
         },
         {
@@ -96,17 +96,17 @@ const organizers = [
         },
         {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+            name: "Mr. Tapas Bera",
+            title: "Joint Secretary",
+        },
+        {
+            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
             name: "Mr. Abhinay Rajput",
             title: "Joint Secretary",
         },
                 {
             image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
             name: "Mr. Kishan Kumar",
-            title: "Joint Secretary",
-        },
-        {
-            image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-            name: "Mr. Tapas Bera",
             title: "Joint Secretary",
         },
         {

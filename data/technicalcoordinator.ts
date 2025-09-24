@@ -7,7 +7,7 @@ const technicalCoordinators = [
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
     name: "Dr. Manoj Kumar",
-    title: "IMMT",
+    title: "CSIR-IMMT",
     },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
@@ -16,7 +16,7 @@ const technicalCoordinators = [
     },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-    name: "Dr. Sudhanshu Shekhar",
+    name: "Dr. Sudhanshu Shekhar Singh",
     title: "IIT Kanpur",
     },
   {
@@ -41,12 +41,12 @@ const technicalCoordinators = [
   },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-    name: "Mr. Somak Dutta",
+    name: "Dr. Somak Dutta",
     title: "BIT Mesra",
   },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-    name: "Mr. Rishi Sharma",
+    name: "Dr. Rishi Sharma",
     title: "BIT Mesra",
   }
 ];
