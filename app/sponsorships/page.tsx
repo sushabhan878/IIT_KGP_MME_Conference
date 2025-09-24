@@ -20,15 +20,17 @@ const Sponsorships = () => {
                     <div className="border-2 border-white rounded-lg overflow-hidden">
                         <div className="bg-gradient-to-r from-purple-400 to-purple-600 text-white p-4 text-center">
                             <h3 className="text-xl font-bold">Platinum Sponsor</h3>
-                            <p className="text-2xl font-bold mt-2">₹1,00,000</p>
+                            <p className="text-2xl font-bold mt-2">₹2,00,000 + Tax</p>
                         </div>
                         <div className="p-6">
                             <ul className="space-y-2">
-                                <li className="flex items-center"><span className="mr-2">✓</span> Premium logo placement</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> Logo on banners</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> Stalls</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> Full-page ad in souvenir</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> 3 free registrations</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> Four delegates can attend the symposium.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span>  Two Keynote speakers can deliver a talk.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span>  No registration fee.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> Local hospitality, including accommodation at the Technology Guest House.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> 3 A space to set up an Exhibition Stall.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> 3 Full page (colour) souvenir advertisement.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> 3  Display of sponsorship in the Poster, Websites, Kit etc.</li>
                             </ul>
                         </div>
                     </div>
@@ -36,15 +38,16 @@ const Sponsorships = () => {
                     <div className="border-2 border-white rounded-lg overflow-hidden">
                         <div className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white p-4 text-center">
                             <h3 className="text-xl font-bold">Gold Sponsor</h3>
-                            <p className="text-2xl font-bold mt-2">₹75,000</p>
+                            <p className="text-2xl font-bold mt-2">₹100,000 + Tax</p>
                         </div>
                         <div className="p-6">
                             <ul className="space-y-2">
-                                <li className="flex items-center"><span className="mr-2">✓</span> Logo on website</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> Logo on banners</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> Stalls</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> Half-page ad in souvenir</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> 2 free registrations</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> Two delegates can attend the symposium.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span>  One keynote speaker can deliver a talk.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> No registration fee.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> Local hospitality, including accommodation at the Technology Guest House</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> 2 Full page (colour) souvenir advertisement.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> 2 Display of sponsorship in the Poster, Websites, Kit etc.</li>
                             </ul>
                         </div>
                     </div>
@@ -56,24 +59,25 @@ const Sponsorships = () => {
                         </div>
                         <div className="p-6">
                             <ul className="space-y-2">
-                                <li className="flex items-center"><span className="mr-2">✓</span> Logo on website</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> Logo on banners</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> Quarter-page ad in souvenir</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> 1 free registration</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> One delegate can attend the symposium.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span>  No registration fee.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> Local hospitality, including accommodation at the Technology Guest
+ House.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span>  Full page (colour) souvenir advertisement.</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span>   A space to set up an Exhibition Stall.</li>
                             </ul>
                         </div>
                     </div>
 
                     <div className="border-2 border-white rounded-lg overflow-hidden">
                         <div className="bg-gradient-to-r from-blue-400 to-blue-600 text-white p-4 text-center">
-                            <h3 className="text-xl font-bold">Exhibitor</h3>
-                            <p className="text-2xl font-bold mt-2">₹25,000</p>
+                            <h3 className="text-xl font-bold">Exhibitor advertisement</h3>
+                            <p className="text-2xl font-bold mt-2">₹20,000 - ₹25,000</p>
                         </div>
                         <div className="p-6">
                             <ul className="space-y-2">
-                                <li className="flex items-center"><span className="mr-2">✓</span> Logo on website</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> Display table</li>
-                                <li className="flex items-center"><span className="mr-2">✓</span> Listing in souvenir</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> Full Page (colour) : ₹25,000 + Tax</li>
+                                <li className="flex items-center"><span className="mr-2">✓</span> Half Page (colour) : ₹20,000 + Tax</li>
                             </ul>
                         </div>
                     </div>
