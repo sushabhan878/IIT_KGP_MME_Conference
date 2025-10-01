@@ -13,7 +13,7 @@ const AbstructSubmission = () => {
           We invite researchers, academicians, industry professionals, and students to submit abstracts for oral and poster presentations at FSEAM 2026. All submissions should present original research, case studies, or innovative practices relevant to the conference themes.
         </p>
         <ul className="list-disc pl-6 mb-4 text-gray-700">
-          <li>Abstracts must be written in English and should not exceed 300 words.</li>
+          <li>Abstracts must be written in English and should not exceed 250 words.</li>
           <li>Include the title, author(s) name(s), affiliation(s), and contact email.</li>
           <li>Clearly state the objectives, methodology, results, and conclusions.</li>
           <li>All abstracts will be peer-reviewed by the scientific committee.</li>
@@ -23,11 +23,11 @@ const AbstructSubmission = () => {
         </p>
         <div>
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
-            <strong className='text-black'>Submission Deadline:</strong> <span className="text-blue-700">September 30, 2025</span>
+            <strong className='text-black'>Submission Deadline:</strong> <span className="text-blue-700">October 15th, 2025</span>
           </div>
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
             <strong className='text-black'>Abstract Template:</strong> <span className="text-blue-700">
-              <Link href="https://res.cloudinary.com/damnmi4ya/raw/upload/v1758735210/Abstract_Template_FSEAM_2025_t2yqpx.docx" download target='_blank'>https://shorturl.at/Wxuoq</Link>
+              <Link href="https://res.cloudinary.com/damnmi4ya/raw/upload/v1759299157/Abstract_Template_FSEAM_2025_t2yqpx_1_zwfhrn.docx" download target='_blank'>https://shorturl.at/Wxuoq</Link>
             </span>
           </div>
         </div>
