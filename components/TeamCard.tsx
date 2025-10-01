@@ -12,7 +12,7 @@ interface TeamCardProps {
 const TeamCard = ({ image, name, title, affiliation }: TeamCardProps) => {
     return (
         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
-            <div className="bg-white text-center w-full h-[320px] relative overflow-hidden rounded-2xl shadow-xl p-8 group border-2 border-transparent hover:border-blue-400 transition-all duration-300 flex flex-col items-center justify-between">
+            <div className="bg-white text-center w-full h-[340px] relative overflow-hidden rounded-2xl shadow-xl p-8 group border-2 border-transparent hover:border-blue-400 transition-all duration-300 flex flex-col items-center justify-between">
                 <div className="relative w-32 h-32 mx-auto mb-6">
                     <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500 via-blue-300 to-blue-700 opacity-30 scale-105 group-hover:opacity-60 transition-all duration-300"></div>
                     <Image
