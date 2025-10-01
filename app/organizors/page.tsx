@@ -3,10 +3,11 @@ import PageLayout from '@/components/PageLayout'
 import TeamCard from '@/components/TeamCard'
 import organizers from '@/data/organizors'
 import technicalCoordinators from '@/data/technicalcoordinator'
+import advisory from '@/data/intAdvisoryBoard'
 
 
 const Organizors = () => {
-   
+
 
 
     return (
@@ -27,6 +28,13 @@ const Organizors = () => {
                 <div className="flex flex-wrap -mx-4 justify-center">
                     {technicalCoordinators.map((coordinator, index) => (
                         <TeamCard key={index} {...coordinator} />
+                    ))}
+                </div>
+                {/* Technical Coordinator Section */}
+                <h2 className="text-3xl font-bold mb-8 text-center">International Advisory Board Members</h2>
+                <div className="flex flex-wrap -mx-4 justify-center">
+                    {advisory.map((advisors, index) => (
+                        <TeamCard key={index} {...advisors} />
                     ))}
                 </div>
             </div>
