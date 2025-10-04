@@ -5,68 +5,95 @@ const Registration = () => {
     return (
         <PageLayout>
             <div className="container mx-auto py-12 px-4">
-                <h1 className="text-3xl font-bold mb-6">Registration</h1>
+                <div className="text-center mb-10">
+                    <h1 className="text-4xl font-bold mb-3 text-indigo-800">Registration</h1>
+                    <div className="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto"></div>
+                    <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+                        Register for the IIT Kharagpur Conference on Advanced Materials for Sustainable Energy
+                    </p>
+                </div>
                 
-                <div className="mb-8">
-                    <h2 className="text-2xl font-semibold mb-4">Registration Fees</h2>
+                <div className="mb-12 bg-gradient-to-br from-indigo-900/30 to-purple-900/30 p-8 rounded-2xl shadow-xl">
+                    <h2 className="text-2xl font-semibold mb-6 text-indigo-400 border-b border-indigo-500/30 pb-2">Registration Fees</h2>
                     <div className="overflow-x-auto">
-                        <table className="min-w-full bg-white border">
+                        <table className="min-w-full bg-transparent border-collapse">
                             <thead>
-                                <tr>
-                                    <th className="py-3 px-4 border-b">Category</th>
-                                    <th className="py-3 px-4 border-b">Early Bird (Before June 30)</th>
-                                    <th className="py-3 px-4 border-b">Regular (After June 30)</th>
+                                <tr className="bg-indigo-800/50 text-indigo-100">
+                                    <th className="py-4 px-6 text-left rounded-tl-lg">Category</th>
+                                    <th className="py-4 px-6 text-center">Early Bird<br/><span className="text-xs font-normal">(Before June 30)</span></th>
+                                    <th className="py-4 px-6 text-center rounded-tr-lg">Regular<br/><span className="text-xs font-normal">(After June 30)</span></th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td className="py-3 px-4 border-b">Students</td>
-                                    <td className="py-3 px-4 border-b">₹3,000</td>
-                                    <td className="py-3 px-4 border-b">₹4,000</td>
+                            <tbody className="text-gray-200">
+                                <tr className="hover:bg-indigo-700/20 transition-colors">
+                                    <td className="py-4 px-6 border-t border-indigo-500/20">Students</td>
+                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center font-medium text-indigo-300">₹3,000</td>
+                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center">₹4,000</td>
                                 </tr>
-                                <tr>
-                                    <td className="py-3 px-4 border-b">Academics</td>
-                                    <td className="py-3 px-4 border-b">₹5,000</td>
-                                    <td className="py-3 px-4 border-b">₹6,000</td>
+                                <tr className="hover:bg-indigo-700/20 transition-colors">
+                                    <td className="py-4 px-6 border-t border-indigo-500/20">Academics</td>
+                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center font-medium text-indigo-300">₹5,000</td>
+                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center">₹6,000</td>
                                 </tr>
-                                <tr>
-                                    <td className="py-3 px-4 border-b">Industry Professionals</td>
-                                    <td className="py-3 px-4 border-b">₹8,000</td>
-                                    <td className="py-3 px-4 border-b">₹10,000</td>
+                                <tr className="hover:bg-indigo-700/20 transition-colors">
+                                    <td className="py-4 px-6 border-t border-indigo-500/20 rounded-bl-lg">Industry Professionals</td>
+                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center font-medium text-indigo-300">₹8,000</td>
+                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center rounded-br-lg">₹10,000</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
                 
-                <div className="bg-gray-50 p-6 rounded-lg mb-8">
-                    <h2 className="text-2xl font-semibold mb-4">Registration Form</h2>
+                <div className="bg-gradient-to-br from-purple-900/30 to-indigo-900/30 p-8 rounded-2xl shadow-xl mb-8">
+                    <h2 className="text-2xl font-semibold mb-6 text-purple-400 border-b border-purple-500/30 pb-2">Registration Form</h2>
                     <form>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
-                                <label className="block text-sm font-medium mb-1" htmlFor="fullName">Full Name</label>
-                                <input type="text" id="fullName" className="w-full px-3 py-2 border rounded-md" />
+                                <label className="block text-sm font-medium mb-2 text-purple-300" htmlFor="fullName">Full Name</label>
+                                <input 
+                                    type="text" 
+                                    id="fullName" 
+                                    className="w-full px-4 py-3 bg-indigo-900/30 border border-purple-500/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white" 
+                                    placeholder="Enter your full name"
+                                />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium mb-1" htmlFor="email">Email</label>
-                                <input type="email" id="email" className="w-full px-3 py-2 border rounded-md" />
+                                <label className="block text-sm font-medium mb-2 text-purple-300" htmlFor="email">Email</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    className="w-full px-4 py-3 bg-indigo-900/30 border border-purple-500/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white" 
+                                    placeholder="Enter your email address"
+                                />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium mb-1" htmlFor="affiliation">Affiliation</label>
-                                <input type="text" id="affiliation" className="w-full px-3 py-2 border rounded-md" />
+                                <label className="block text-sm font-medium mb-2 text-purple-300" htmlFor="affiliation">Affiliation</label>
+                                <input 
+                                    type="text" 
+                                    id="affiliation" 
+                                    className="w-full px-4 py-3 bg-indigo-900/30 border border-purple-500/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white" 
+                                    placeholder="Enter your institution/organization"
+                                />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium mb-1" htmlFor="category">Category</label>
-                                <select id="category" className="w-full px-3 py-2 border rounded-md">
-                                    <option value="">Select Category</option>
-                                    <option value="student">Student</option>
-                                    <option value="academic">Academic</option>
-                                    <option value="industry">Industry Professional</option>
+                                <label className="block text-sm font-medium mb-2 text-purple-300" htmlFor="category">Category</label>
+                                <select 
+                                    id="category" 
+                                    className="w-full px-4 py-3 bg-indigo-900/30 border border-purple-500/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white appearance-none"
+                                >
+                                    <option value="" className="bg-indigo-900">Select Category</option>
+                                    <option value="student" className="bg-indigo-900">Student</option>
+                                    <option value="academic" className="bg-indigo-900">Academic</option>
+                                    <option value="industry" className="bg-indigo-900">Industry Professional</option>
                                 </select>
                             </div>
                         </div>
-                        <div className="mt-6">
-                            <button type="submit" className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors">
+                        <div className="mt-8">
+                            <button 
+                                type="submit" 
+                                className="px-8 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-medium rounded-lg hover:from-indigo-700 hover:to-purple-700 transition-all shadow-lg hover:shadow-indigo-500/30 focus:outline-none focus:ring-2 focus:ring-purple-500"
+                            >
                                 Register Now
                             </button>
                         </div>
