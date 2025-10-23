@@ -20,8 +20,8 @@ const Registration = () => {
                             <thead>
                                 <tr className="bg-indigo-800/50 text-indigo-100">
                                     <th className="py-4 px-6 text-left rounded-tl-lg">Category</th>
-                                    <th className="py-4 px-6 text-center">Early Bird<br /><span className="text-xs font-normal">(Before June 30)</span></th>
-                                    <th className="py-4 px-6 text-center rounded-tr-lg">Regular<br /><span className="text-xs font-normal">(After June 30)</span></th>
+                                    <th className="py-4 px-6 text-center">Early Bird<br /><span className="text-xs font-normal">(Before Nov 15)</span></th>
+                                    <th className="py-4 px-6 text-center rounded-tr-lg">Regular<br /><span className="text-xs font-normal">(After Nov 15)</span></th>
                                 </tr>
                             </thead>
                             <tbody className="text-gray-200">
