@@ -13,45 +13,69 @@ const Registration = () => {
                     </p>
                 </div>
 
-                <div className="mb-12 bg-gradient-to-br from-indigo-900/30 to-purple-900/30 p-8 rounded-2xl shadow-xl">
-                    <h2 className="text-2xl font-semibold mb-6 text-indigo-400 border-b border-indigo-500/30 pb-2">Registration Fees</h2>
+                {/* Full-width highlighted waiver banner */}
+                <div className="mx-[calc(50%-50vw)] w-screen mb-10">
+                    <div className="bg-blue-100 text-blue-900 border-y border-blue-300/60 text-center py-3">
+                        <span className="font-semibold tracking-wide uppercase">
+                            50% waiver of registration fee would be exempted for all the Speakers of IIT Kharagpur, BIT Mesra and Members of INAE, IAAM, WAST
+                        </span>
+                    </div>
+                </div>
+
+                <div className="mb-12 bg-gradient-to-br from-indigo-50 to-blue-50 p-8 rounded-2xl shadow-xl ring-1 ring-indigo-200">
+                    <h2 className="text-3xl font-semibold mb-6 text-indigo-900 border-b border-indigo-300 pb-3">Registration Fees</h2>
                     <div className="overflow-x-auto">
-                        <table className="min-w-full bg-transparent border-collapse">
+                        <table className="min-w-full bg-transparent border-collapse text-lg">
                             <thead>
-                                <tr className="bg-indigo-800/50 text-indigo-100">
-                                    <th className="py-4 px-6 text-left rounded-tl-lg">Category</th>
-                                    <th className="py-4 px-6 text-center">Early Bird<br /><span className="text-xs font-normal">(Before Nov 15)</span></th>
-                                    <th className="py-4 px-6 text-center rounded-tr-lg">Regular<br /><span className="text-xs font-normal">(After Nov 15)</span></th>
+                                <tr className="bg-indigo-100 text-indigo-900">
+                                    <th className="py-5 px-6 text-left rounded-tl-xl font-semibold">Category</th>
+                                    <th className="py-5 px-6 text-center font-semibold">
+                                        Early Bird
+                                        <br />
+                                        <span className="inline-block mt-2 text-xs font-medium bg-indigo-50 text-indigo-900 px-2.5 py-1 rounded-full">
+                                            Before Nov 15
+                                        </span>
+                                    </th>
+                                    <th className="py-5 px-6 text-center rounded-tr-xl font-semibold">
+                                        Regular
+                                        <br />
+                                        <span className="inline-block mt-2 text-xs font-medium bg-indigo-50 text-indigo-900 px-2.5 py-1 rounded-full">
+                                            After Nov 15
+                                        </span>
+                                    </th>
                                 </tr>
                             </thead>
-                            <tbody className="text-gray-200">
-                                <tr className="hover:bg-indigo-700/20 transition-colors">
-                                    <td className="py-4 px-6 border-t border-indigo-500/20">Indian Students</td>
-                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center font-medium text-indigo-300">₹5,000</td>
-                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center">₹6,000</td>
+                            <tbody className="text-indigo-900">
+                                <tr className="hover:bg-blue-50 transition-colors">
+                                    <td className="py-5 px-6 border-t border-indigo-200">Indian Students</td>
+                                    <td className="py-5 px-6 border-t border-indigo-200 text-center font-bold text-blue-800">₹5,000</td>
+                                    <td className="py-5 px-6 border-t border-indigo-200 text-center">₹6,000</td>
                                 </tr>
-                                <tr className="hover:bg-indigo-700/20 transition-colors">
-                                    <td className="py-4 px-6 border-t border-indigo-500/20">Indian Academics/Scientists</td>
-                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center font-medium text-indigo-300">₹10,000</td>
-                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center">₹12,000</td>
+                                <tr className="hover:bg-blue-50 transition-colors">
+                                    <td className="py-5 px-6 border-t border-indigo-200">Indian Academics/Scientists</td>
+                                    <td className="py-5 px-6 border-t border-indigo-200 text-center font-bold text-blue-800">₹10,000</td>
+                                    <td className="py-5 px-6 border-t border-indigo-200 text-center">₹12,000</td>
                                 </tr>
-                                <tr className="hover:bg-indigo-700/20 transition-colors">
-                                    <td className="py-4 px-6 border-t border-indigo-500/20 rounded-bl-lg">Industry Participants</td>
-                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center font-medium text-indigo-300">₹15,000</td>
-                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center rounded-br-lg">₹17,000</td>
+                                <tr className="hover:bg-blue-50 transition-colors">
+                                    <td className="py-5 px-6 border-t border-indigo-200 rounded-bl-xl">Industry Participants</td>
+                                    <td className="py-5 px-6 border-t border-indigo-200 text-center font-bold text-blue-800">₹15,000</td>
+                                    <td className="py-5 px-6 border-t border-indigo-200 text-center rounded-br-xl">₹17,000</td>
                                 </tr>
-                                <tr className="hover:bg-indigo-700/20 transition-colors">
-                                    <td className="py-4 px-6 border-t border-indigo-500/20 rounded-bl-lg">Foreign Participants</td>
-                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center font-medium text-indigo-300">$700</td>
-                                    <td className="py-4 px-6 border-t border-indigo-500/20 text-center rounded-br-lg">$800</td>
+                                <tr className="hover:bg-blue-50 transition-colors">
+                                    <td className="py-5 px-6 border-t border-indigo-200 rounded-bl-xl">Foreign Participants</td>
+                                    <td className="py-5 px-6 border-t border-indigo-200 text-center font-bold text-blue-800">$700</td>
+                                    <td className="py-5 px-6 border-t border-indigo-200 text-center rounded-br-xl">$800</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <p className="mt-10 font-bold text-gray-300 ">
+                    <p className="mt-10 font-semibold text-indigo-800 text-base">
                         This Registration Fee is inclusive of GST.
                     </p>
                 </div>
+
+
+                
 
                 {/* <div className="bg-gradient-to-br from-purple-900/30 to-indigo-900/30 p-8 rounded-2xl shadow-xl mb-8">
                     <h2 className="text-2xl font-semibold mb-6 text-purple-400 border-b border-purple-500/30 pb-2">Registration Form</h2>
