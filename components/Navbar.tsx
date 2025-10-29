@@ -47,6 +47,9 @@ const Navbar = () => {
             <Link href="/sponsorships" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
               Sponsorships
             </Link>
+            <Link href="/speakers" className="px-2 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
+              Speakers
+            </Link>
             <Link href="/awards" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
               Awards
             </Link>
@@ -91,6 +94,9 @@ const Navbar = () => {
             </Link>
             <Link href="/registration" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800">
               Registration
+            </Link>
+            <Link href="/speakers" className="block px-2 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800">
+              Speakers
             </Link>
             <Link href="/organizors" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800">
               Organizers
