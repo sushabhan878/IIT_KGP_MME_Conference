@@ -2,10 +2,12 @@ import React from 'react'
 import SpeakerCard from '@/components/SpeakerCard'
 import foreignSpeakers from '@/data/foreignSpeakers'
 import indianSpeakers from '@/data/indianSpeakers'
+import PageLayout from '@/components/PageLayout'
 
 const Speakers = () => {
   return (
-    <section className="py-16 bg-gradient-to-b from-indigo-50 to-blue-50">
+    <PageLayout>
+      <section className="py-16 bg-gradient-to-b from-indigo-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
           <h1 className="text-4xl font-bold mb-3 text-indigo-800">Speakers</h1>
@@ -25,6 +27,8 @@ const Speakers = () => {
         </div>
       </div>
     </section>
+    </PageLayout>
+    
   )
 }
 
