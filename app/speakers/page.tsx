@@ -1,19 +1,7 @@
 import React from 'react'
-
-const speakers = [
-  'Prof. A. K. Sharma',
-  'Dr. S. Banerjee',
-  'Prof. R. Kumar',
-  'Dr. N. Gupta',
-  'Prof. M. Iyer',
-  'Dr. P. Chatterjee',
-  'Prof. S. Mukherjee',
-  'Dr. R. Verma',
-  'Prof. T. Srinivasan',
-  'Dr. K. Patel',
-  'Prof. V. Rao',
-  'Dr. H. Das'
-]
+import SpeakerCard from '@/components/SpeakerCard'
+import foreignSpeakers from '@/data/foreignSpeakers'
+import indianSpeakers from '@/data/indianSpeakers'
 
 const Speakers = () => {
   return (
@@ -27,29 +15,14 @@ const Speakers = () => {
           </p>
         </div>
 
-        {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {speakers.map((name) => (
-            <div
-              key={name}
-              className="group rounded-2xl bg-white ring-1 ring-indigo-100 shadow-sm hover:shadow-md transition-all"
-            >
-              <div className="p-6">
-                <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-indigo-600 to-blue-600 text-white flex items-center justify-center font-semibold shadow-sm">
-                  {name.split(' ').map(w => w[0]).join('').slice(0, 2)}
-                </div>
-                <h3 className="mt-4 text-lg font-semibold text-indigo-900 group-hover:text-blue-800">
-                  {name}
-                </h3>
-                <p className="mt-1 text-sm text-blue-900/70">
-                  Invited Speaker
-                </p>
-              </div>
-              <div className="px-6 pb-6">
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-indigo-200 to-transparent"></div>
-              </div>
-            </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {foreignSpeakers.map((speaker) => (
+            <SpeakerCard key={speaker.email} {...speaker} origin="foreign" />
           ))}
-        </div> */}
+          {indianSpeakers.map((speaker) => (
+            <SpeakerCard key={speaker.email} {...speaker} origin="indian" />
+          ))}
+        </div>
       </div>
     </section>
   )
