@@ -74,8 +74,52 @@ const Registration = () => {
                     </p>
                 </div>
 
+                <div className="mb-12 bg-white/90 p-8 rounded-2xl shadow-xl ring-1 ring-indigo-100">
+                    <h2 className="text-2xl font-semibold mb-4 text-indigo-900">Complete Your Registration</h2>
+                    <p className="text-indigo-800 mb-6">
+                        Please find below the registration link and QR code for completing your registration process. Kindly complete the registration at your earliest convenience.
+                    </p>
 
-                
+                    <div className="flex flex-col lg:flex-row items-start lg:items-center gap-8">
+                        <div className="flex-1 space-y-3">
+                            <p className="text-indigo-900 font-semibold">Registration link:</p>
+                            <a
+                                href="https://erp.iitkgp.ac.in/CEP/courses.htm"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 text-blue-700 hover:text-blue-900 font-semibold"
+                            >
+                                https://erp.iitkgp.ac.in/CEP/courses.htm
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+                                    <path d="M7.5 3H5.25A2.25 2.25 0 0 0 3 5.25v13.5A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5a.75.75 0 0 0-1.5 0v2.25a.75.75 0 0 1-.75.75H5.25a.75.75 0 0 1-.75-.75V5.25a.75.75 0 0 1 .75-.75H7.5A.75.75 0 0 0 7.5 3Zm6 0a.75.75 0 0 0 0 1.5h3.19l-7.72 7.72a.75.75 0 1 0 1.06 1.06L17.75 5.56v3.19a.75.75 0 0 0 1.5 0V3.75A.75.75 0 0 0 18.5 3Z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div className="flex-shrink-0">
+                            <img
+                                src="https://res.cloudinary.com/damnmi4ya/image/upload/v1762518454/qr_nfzzao.jpg"
+                                alt="QR code for conference registration"
+                                className="w-44 h-44 rounded-xl border border-indigo-100 shadow-md"
+                            />
+                        </div>
+                    </div>
+
+                    <div className="mt-8 bg-indigo-50/80 border border-indigo-200 rounded-2xl p-6">
+                        <h3 className="text-xl font-semibold text-indigo-900 mb-4">Step-by-Step Registration Process:</h3>
+                        <ol className="list-decimal list-inside space-y-3 text-indigo-800">
+                            <li>Click on the Registration Link (or scan the QR code above).</li>
+                            <li>Sign up with your email ID and create a password.</li>
+                            <li>After successful signup, log in to your account.</li>
+                            <li>Select the <span className="font-semibold">Conference</span> option from the main menu.</li>
+                            <li>Select <span className="font-semibold">“1st International Conference on Frontiers in Surface Engineering and Additive Manufacturing (FSEAM 2026)”</span>.</li>
+                            <li>Fill in the required details (educational details are optional).</li>
+                            <li>After filling in the form, click on <span className="font-semibold">“Apply”</span>.</li>
+                            <li>Once your registration is approved, complete the payment to finalize your registration.</li>
+                        </ol>
+                    </div>
+                </div>
+
+
 
                 {/* <div className="bg-gradient-to-br from-purple-900/30 to-indigo-900/30 p-8 rounded-2xl shadow-xl mb-8">
                     <h2 className="text-2xl font-semibold mb-6 text-purple-400 border-b border-purple-500/30 pb-2">Registration Form</h2>
