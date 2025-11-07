@@ -69,29 +69,6 @@ const ImportantDates = () => {
           ))}
         </div>
 
-        {/* Highlighted moving line for abstract submission extension (full-bleed) */}
-        <div className="mt-10 mx-[calc(50%-50vw)] w-screen">
-          <div className="relative overflow-hidden marquee-viewport border-y border-yellow-400/40 bg-gradient-to-r from-amber-100 via-yellow-100 to-amber-100">
-            <div className="animate-marquee whitespace-nowrap py-3">
-              <span className="px-10 text-amber-900 font-semibold tracking-wider uppercase">
-                Last date of abstract submission is extended till 15th Nov!
-              </span>
-              <span className="px-6 text-amber-900/60">•</span>
-              <span className="px-10 text-amber-900 font-medium uppercase">
-                Submit yours today
-              </span>
-              <span className="px-6 text-amber-900/60">•</span>
-              <span className="px-10 text-amber-900 font-semibold tracking-wider uppercase">
-                Last date of abstract submission is extended till 15th Nov!
-              </span>
-              <span className="px-6 text-amber-900/60">•</span>
-              <span className="px-10 text-amber-900 font-medium uppercase">
-                Submit yours today
-              </span>
-            </div>
-          </div>
-        </div>
-
         <div className="mt-12 text-center">
           <Link
             href="/registration"

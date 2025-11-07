@@ -15,6 +15,29 @@ const Home = () => {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow">
+        {/* Full-width marquee highlighting abstract submission extension */}
+        <div className="sticky top-16 z-40 mx-[calc(50%-50vw)] w-screen border-y border-yellow-400/40 bg-gradient-to-r from-amber-100 via-yellow-100 to-amber-100">
+          <div className="relative overflow-hidden marquee-viewport">
+            <div className="animate-marquee whitespace-nowrap py-3 text-amber-900" style={{ animationDuration: '30s' }}>
+              <span className="px-10 font-semibold tracking-wider uppercase">
+                Last date of abstract submission is extended till 15th Nov!
+              </span>
+              <span className="px-6 text-amber-900/60">•</span>
+              <span className="px-10 font-medium uppercase">
+                Submit yours today
+              </span>
+              <span className="px-6 text-amber-900/60">•</span>
+              <span className="px-10 font-semibold tracking-wider uppercase">
+                Last date of abstract submission is extended till 15th Nov!
+              </span>
+              <span className="px-6 text-amber-900/60">•</span>
+              <span className="px-10 font-medium uppercase">
+                Submit yours today
+              </span>
+            </div>
+          </div>
+        </div>
+
         <Hero />
 
         {/* Simple logos strip with no background */}
