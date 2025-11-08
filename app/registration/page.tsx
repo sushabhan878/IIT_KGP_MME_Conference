@@ -17,7 +17,7 @@ const Registration = () => {
                 <div className="mx-[calc(50%-50vw)] w-screen mb-10">
                     <div className="bg-blue-100 text-blue-900 border-y border-blue-300/60 text-center py-3">
                         <span className="font-semibold tracking-wide uppercase">
-                            50% waiver of registration fee would be exempted for all the Speakers of IIT Kharagpur, BIT Mesra and Members of INAE, IAAM, WAST
+                        A 50% waiver on the registration fee will be provided to all speakers from IIT Kharagpur, BIT Mesra, and members of INAE, IAAM, and WAST.
                         </span>
                     </div>
                 </div>
