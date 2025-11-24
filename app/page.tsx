@@ -20,7 +20,7 @@ const Home = () => {
           <div className="relative overflow-hidden marquee-viewport">
             <div className="animate-marquee whitespace-nowrap py-3 text-amber-900" style={{ animationDuration: '30s' }}>
               <span className="px-10 font-semibold tracking-wider uppercase">
-                Last date of abstract submission is extended till 15th Nov!
+                Last date of abstract submission is extended till 30th Nov!
               </span>
               <span className="px-6 text-amber-900/60">•</span>
               <span className="px-10 font-medium uppercase">
@@ -28,7 +28,7 @@ const Home = () => {
               </span>
               <span className="px-6 text-amber-900/60">•</span>
               <span className="px-10 font-semibold tracking-wider uppercase">
-                Last date of abstract submission is extended till 15th Nov!
+                Last date of abstract submission is extended till 30th Nov!
               </span>
               <span className="px-6 text-amber-900/60">•</span>
               <span className="px-10 font-medium uppercase">
