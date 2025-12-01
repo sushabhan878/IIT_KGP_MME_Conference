@@ -24,7 +24,22 @@ const foreignSpeakers: ForeignSpeaker[] = [
       name: 'Prof. Narendra B. Dahotre',
       affiliation: 'Regents Professor, University of North Texas, USA; Associate Vice President, Center for Agile & Adaptive Additive Manufacturing',
       image: 'https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg'
-    }
+  },
+    {
+      name: 'Prof. Chinnasamy Vivekanandhan',
+      affiliation: 'Department of Mechanical, Energy and Industrial Engineering, School of Electrical and Mechanical Engineering, Botswana International University of Science and Technology',
+      image: 'https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg'
+  },
+    {
+      name: 'Dr. Vladimir Popov ',
+      affiliation: 'Tel Aviv University',
+      image: 'https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg'
+  },
+    {
+      name: 'Prof. Dr. Frank Brückner',
+      affiliation: 'Technology Field Manager Additive Manufacturing and Surface Technology Fraunhofer Institute for Material and Beam Technology IWS',
+      image: 'https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg'
+  }
   ]  
   
 
