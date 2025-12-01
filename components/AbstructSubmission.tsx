@@ -23,7 +23,7 @@ const AbstructSubmission = () => {
         </p>
         <div>
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
-            <strong className='text-black'>Submission Deadline:</strong> <span className="text-blue-700">October 15th, 2025</span>
+            <strong className='text-black'>Submission Deadline:</strong> <span className="text-blue-700">December 15th, 2025</span>
           </div>
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
             <strong className='text-black'>Abstract Template:</strong> <span className="text-blue-700">

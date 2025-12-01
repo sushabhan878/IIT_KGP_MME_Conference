@@ -33,14 +33,14 @@ const Registration = () => {
                                         Early Bird
                                         <br />
                                         <span className="inline-block mt-2 text-xs font-medium bg-indigo-50 text-indigo-900 px-2.5 py-1 rounded-full">
-                                            Before Nov 15
+                                            Before Dec 31
                                         </span>
                                     </th>
                                     <th className="py-5 px-6 text-center rounded-tr-xl font-semibold">
                                         Regular
                                         <br />
                                         <span className="inline-block mt-2 text-xs font-medium bg-indigo-50 text-indigo-900 px-2.5 py-1 rounded-full">
-                                            After Nov 15
+                                            After Dec 31
                                         </span>
                                     </th>
                                 </tr>
