@@ -4,6 +4,7 @@ import TeamCard from '@/components/TeamCard'
 import organizers from '@/data/organizors'
 import technicalCoordinators from '@/data/technicalcoordinator'
 import advisory from '@/data/intAdvisoryBoard'
+import studentCoordinater from '@/data/studentCoordinaters'
 
 
 const Organizors = () => {
@@ -13,7 +14,7 @@ const Organizors = () => {
     return (
         <PageLayout>
             <div className="container mx-auto py-12 px-4">
-                <h1 className="text-3xl font-bold mb-4 text-center">Conference Organizers</h1>
+                <h1 className="text-5xl font-bold mb-4 text-center">Conference Organizers</h1>
                 <p className="text-center text-gray-300 mb-10 max-w-3xl mx-auto">
                     Meet the dedicated team of professionals from IIT Kharagpur&apos;s Department of Metallurgical and Materials Engineering who are organizing this prestigious conference on Advanced Materials for Sustainable Energy.
                 </p>
@@ -24,17 +25,24 @@ const Organizors = () => {
                 </div>
 
                 {/* Technical Coordinator Section */}
-                <h2 className="text-3xl font-bold mb-8 text-center">Technical Coordinator</h2>
+                <h2 className="text-4xl font-bold mb-8 text-center">Technical Coordinator</h2>
                 <div className="flex flex-wrap -mx-4 justify-center">
                     {technicalCoordinators.map((coordinator, index) => (
                         <TeamCard key={index} {...coordinator} />
                     ))}
                 </div>
                 {/* Technical Coordinator Section */}
-                <h2 className="text-3xl font-bold mb-8 text-center">International Advisory Board Members</h2>
+                <h2 className="text-4xl font-bold mt-14 mb-8 text-center">International Advisory Board Members</h2>
                 <div className="flex flex-wrap -mx-4 justify-center">
                     {advisory.map((advisors, index) => (
                         <TeamCard key={index} {...advisors} />
+                    ))}
+                </div>
+                {/* Student Coordinators Section */}
+                <h2 className="text-4xl font-bold mt-14 mb-8 text-center">Student Technical Coordinator</h2>
+                <div className="flex flex-wrap -mx-4 justify-center">
+                    {studentCoordinater.map((studentCoordinater, index) => (
+                        <TeamCard key={index} {...studentCoordinater} />
                     ))}
                 </div>
             </div>
