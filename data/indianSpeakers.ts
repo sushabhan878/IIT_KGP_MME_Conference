@@ -5,7 +5,12 @@ export interface IndianSpeaker {
 }
 
 const indianSpeakers: IndianSpeaker[] = [
-    {
+  {
+        name: "Prof. Kantesh Balani",
+        affiliation: "Prof. and Head, Department of Materials Science and Engineering, IIT Kanpur",
+        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
+    },  
+  {
         name: "Prof. Kallol Mondal",
         affiliation: "Professor and Head, Department of Materials Science and Engineering, IIT Kanpur, India",
         image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
@@ -29,12 +34,22 @@ const indianSpeakers: IndianSpeaker[] = [
         name: "Prof. G. L. Samuel",
         affiliation: "Professor, Department of Mechanical Engineering, IIT Madras, India",
         image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
-    },
+  },
     {
-        name: "Dr. Sandip Ghosh Chowdhuri",
-        affiliation: "Chief Scientist, CSIR-National Metallurgical Laboratory (NML), Jamshedpur, India",
+        name: "Dr. Sisir Mantri",
+        affiliation: "Principal Scientist, CSIR-IMMT, Bhubaneswar",
+        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
+  },
+    {
+        name: "Dr. D.P. Mondal",
+        affiliation: "Director R&D, Technocrats Institute of Technology, Bhopal",
         image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
     },
+    // {
+    //     name: "Dr. Sandip Ghosh Chowdhuri",
+    //     affiliation: "Chief Scientist, CSIR-National Metallurgical Laboratory (NML), Jamshedpur, India",
+    //     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
+    // },
     {
         name: "Prof. Swarup Bag",
         affiliation: "Professor, Department of Mechanical Engineering, IIT Guwahati, India",
@@ -44,7 +59,32 @@ const indianSpeakers: IndianSpeaker[] = [
         name: "Prof. Harpreet Singh",
         affiliation: "Professor, IIT Ropar, India",
         image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
-    },
+  },
+    {
+    "name": "Sushant K. Singh",
+    "affiliation": "Director, The Center for Artificial Intelligence and Environmental Sustainability (CAIES) Foundation, Anisabad, Patna 800002, Bihar, India",
+    "image": ""
+  },
+{
+    "name": "Rajukmar Singh",
+    "affiliation": "Senior Director, Kalyani Centre for Technology & Innovation, R&D of Bharat Forge Ltd.",
+    "image": ""
+  },
+{
+    "name": "Dr. Kumkum Banerjee",
+    "affiliation": "HOD, Metallurgical and Materials Engineering, NITK Surathkal",
+    "image": ""
+  },
+{
+    "name": "Prof. N K Mukhopahdyay",
+    "affiliation": "",
+    "image": ""
+  },
+{
+    "name": "Dr. Palash Kumar Mollick",
+    "affiliation": "Glass & Advanced Materials Division, Bhabha Atomic Research Centre, Mumbai, India",
+    "image": ""
+},
     {
         name: "Prof. Shashi Bhushan Arya",
         affiliation: "Professor, Department of Metallurgical and Materials Engineering, NIT Surathkal, India",
