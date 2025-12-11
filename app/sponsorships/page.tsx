@@ -8,6 +8,165 @@ const Sponsorships = () => {
             <div className="container mx-auto py-12 px-4">
                 <h1 className="text-5xl font-bold mb-6">Sponsorships</h1>
 
+                {/* Our Sponsors Section */}
+                <div className="mb-12">
+                    <h2 className="text-4xl font-bold mb-8 text-center">Our Sponsors</h2>
+                    
+                    {/* Row 1: Gold and Silver Sponsors */}
+                    <div className="flex flex-wrap justify-center gap-6 mb-6">
+                        {/* Gold Sponsor 1 */}
+                        <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-yellow-400 flex-1 min-w-[200px] max-w-[280px]">
+                            <div className="flex flex-col items-center h-full">
+                                <div className="mb-4 h-24 w-full flex items-center justify-center">
+                                    <img 
+                                        src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429976/p-1290-9-ametek-logo-png-transparent-logo-591548730419_mm7efi.png" 
+                                        alt="Ametek India Logo" 
+                                        className="h-full w-full object-contain"
+                                        onError={(e) => {
+                                            const target = e.target as HTMLImageElement;
+                                            target.style.display = 'none';
+                                        }}
+                                    />
+                                </div>
+                                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">Ametek India</h4>
+                                <span className="text-xs font-medium text-yellow-600 bg-yellow-50 px-3 py-1 rounded-full">Gold Sponsor</span>
+                            </div>
+                        </div>
+                        
+                        {/* Gold Sponsor 2 */}
+                        <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-yellow-400 flex-1 min-w-[200px] max-w-[280px]">
+                            <div className="flex flex-col items-center h-full">
+                                <div className="mb-4 h-24 w-full flex items-center justify-center">
+                                    <img 
+                                        src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429985/kan-logo-kan-letter-kan-letter-logo-design-initials-kan-logo-linked-with-circle-and-uppercase-monogram-logo-kan-typography-for-technology-busines-2RCM6X3-removebg-preview_xk81ek.png" 
+                                        alt="KAN-THT India Logo" 
+                                        className="h-full w-full object-contain"
+                                        onError={(e) => {
+                                            const target = e.target as HTMLImageElement;
+                                            target.style.display = 'none';
+                                        }}
+                                    />
+                                </div>
+                                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">KAN-THT India</h4>
+                                <span className="text-xs font-medium text-yellow-600 bg-yellow-50 px-3 py-1 rounded-full">Gold Sponsor</span>
+                            </div>
+                        </div>
+                        
+                        {/* Silver Sponsor 1 */}
+                        <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-gray-400 flex-1 min-w-[200px] max-w-[280px]">
+                            <div className="flex flex-col items-center h-full">
+                                <div className="mb-4 h-24 w-full flex items-center justify-center">
+                                    <img 
+                                        src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429976/Carl_Zeiss_AG-Logo.wine_p0uxrr.png" 
+                                        alt="Carl Ziss India Logo" 
+                                        className="h-full w-full object-contain"
+                                        onError={(e) => {
+                                            const target = e.target as HTMLImageElement;
+                                            target.style.display = 'none';
+                                        }}
+                                    />
+                                </div>
+                                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">Carl Ziss India</h4>
+                                <span className="text-xs font-medium text-gray-600 bg-gray-50 px-3 py-1 rounded-full">Silver Sponsor</span>
+                            </div>
+                        </div>
+                        
+                        {/* Silver Sponsor 2 */}
+                        <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-gray-400 flex-1 min-w-[200px] max-w-[280px]">
+                            <div className="flex flex-col items-center h-full">
+                                <div className="mb-4 h-24 w-full flex items-center justify-center">
+                                    <img 
+                                        src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429984/jeol_ogp-removebg-preview_l2dowm.png" 
+                                        alt="Jeol India Logo" 
+                                        className="h-full w-full object-contain"
+                                        onError={(e) => {
+                                            const target = e.target as HTMLImageElement;
+                                            target.style.display = 'none';
+                                        }}
+                                    />
+                                </div>
+                                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">Jeol India</h4>
+                                <span className="text-xs font-medium text-gray-600 bg-gray-50 px-3 py-1 rounded-full">Silver Sponsor</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    {/* Row 2: Non-Categorized Sponsors */}
+                    <div className="flex flex-wrap justify-center gap-6">
+                        {/* Sponsor 1 */}
+                        <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-blue-400 flex-1 min-w-[200px] max-w-[280px]">
+                            <div className="flex flex-col items-center h-full">
+                                <div className="mb-4 h-24 w-full flex items-center justify-center">
+                                    <img 
+                                        src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430782/logo_ducom-removebg-preview_lzu0xr.png" 
+                                        alt="Ducom Instruments Logo" 
+                                        className="h-full w-full object-contain"
+                                        onError={(e) => {
+                                            const target = e.target as HTMLImageElement;
+                                            target.style.display = 'none';
+                                        }}
+                                    />
+                                </div>
+                                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">Ducom Instruments</h4>
+                            </div>
+                        </div>
+                        
+                        {/* Sponsor 2 */}
+                        <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-blue-400 flex-1 min-w-[200px] max-w-[280px]">
+                            <div className="flex flex-col items-center h-full">
+                                <div className="mb-4 h-24 w-full flex items-center justify-center">
+                                    <img 
+                                        src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430783/steel-authority-of-india-vector-logo-115742587135vlvf4po38-removebg-preview_wytnko.png" 
+                                        alt="Steel Authority of India Limited Logo" 
+                                        className="h-full w-full object-contain"
+                                        onError={(e) => {
+                                            const target = e.target as HTMLImageElement;
+                                            target.style.display = 'none';
+                                        }}
+                                    />
+                                </div>
+                                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">Steel Authority of India Limited</h4>
+                            </div>
+                        </div>
+                        
+                        {/* Sponsor 3 */}
+                        <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-blue-400 flex-1 min-w-[200px] max-w-[280px]">
+                            <div className="flex flex-col items-center h-full">
+                                <div className="mb-4 h-24 w-full flex items-center justify-center">
+                                    <img 
+                                        src="https://example.com/sponsors/caies-foundation.png" 
+                                        alt="CAIES Foundation Logo" 
+                                        className="h-full w-full object-contain"
+                                        onError={(e) => {
+                                            const target = e.target as HTMLImageElement;
+                                            target.style.display = 'none';
+                                        }}
+                                    />
+                                </div>
+                                <h4 className="text-base font-semibold text-center mb-2 text-gray-900">The Center of Artificial Intelligence and Environmental Sustainability (CAIES) Foundation, Bihar, India</h4>
+                            </div>
+                        </div>
+                        
+                        {/* Sponsor 4 */}
+                        <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-blue-400 flex-1 min-w-[200px] max-w-[280px]">
+                            <div className="flex flex-col items-center h-full">
+                                <div className="mb-4 h-24 w-full flex items-center justify-center">
+                                    <img 
+                                        src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430790/CSIR_skfcbs.png" 
+                                        alt="CSIR-CSIO Logo" 
+                                        className="h-full w-full object-contain"
+                                        onError={(e) => {
+                                            const target = e.target as HTMLImageElement;
+                                            target.style.display = 'none';
+                                        }}
+                                    />
+                                </div>
+                                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">CSIR-Central Scientific Instruments Organization (CSIO)</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="prose max-w-none mb-8">
                     <p className="mb-4">Sponsorship at FSEAM 2026 offers a unique opportunity to showcase your brand to leading researchers, industry professionals, and academicians in the fields of surface engineering and additive manufacturing. By partnering with us, your organization will gain visibility, connect with potential collaborators, and demonstrate its commitment to advancing sustainable technologies and innovations.</p>
                     <p className='mb-4'>Join us as a valued sponsor at FSEAM 2026 and showcase your brand to a global audience of researchers, industry leaders, and academicians. Explore our sponsorship opportunities and be part of advancing innovations in surface engineering and additive manufacturing.</p>
