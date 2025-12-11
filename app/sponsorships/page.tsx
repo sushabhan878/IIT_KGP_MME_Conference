@@ -143,8 +143,8 @@ const Sponsorships = () => {
                                         }}
                                     />
                                 </div>
-                                {/* <h4 className="text-base font-semibold text-center mb-2 text-gray-900">The Center of Artificial Intelligence and Environmental Sustainability (CAIES) Foundation, Bihar, India</h4> */}
-                                <h4 className="text-base font-semibold text-center mb-2 text-gray-900">CAIES</h4>
+                                <h4 className="text-base font-semibold text-center mb-2 text-gray-900">The Center of Artificial Intelligence and Environmental Sustainability (CAIES)</h4>
+                                {/* <h4 className="text-base font-semibold text-center mb-2 text-gray-900">CAIES</h4> */}
                             </div>
                         </div>
                         
