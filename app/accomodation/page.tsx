@@ -3,9 +3,10 @@ import Navbar from '@/components/Navbar'
 
 const Accomodation= () => {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+      <div className='flex justify-center items-center h-screen text-4xl'>Comming Soon ... Stay Tuned !</div>
+    </>
   )
 }
 
