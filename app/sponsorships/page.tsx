@@ -134,7 +134,7 @@ const Sponsorships = () => {
                             <div className="flex flex-col items-center h-full">
                                 <div className="mb-4 h-24 w-full flex items-center justify-center">
                                     <img 
-                                        src="https://example.com/sponsors/caies-foundation.png" 
+                                        src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765782093/WhatsApp_Image_2025-12-11_at_13.53.37_jrqfzw.jpg" 
                                         alt="CAIES Foundation Logo" 
                                         className="h-full w-full object-contain"
                                         onError={(e) => {

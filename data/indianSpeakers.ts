@@ -71,11 +71,6 @@ const indianSpeakers: IndianSpeaker[] = [
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
   },
 {
-    name: "Dr. Kumkum Banerjee",
-    affiliation: "HOD, Metallurgical and Materials Engineering, NITK Surathkal",
-    image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
-  },
-{
     name: "Prof. N K Mukhopahdyay",
     affiliation: "",
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
@@ -118,11 +113,6 @@ const indianSpeakers: IndianSpeaker[] = [
 {
     name: "Supriyo Ghosh",
     affiliation: "Department of Metallurgical and Materials Engineering, IIT Roorkee",
-    image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
-},
-{
-    name: "Prof. Sukla Mondol",
-    affiliation: "Metallurgical and Materials Engineering, National Institute of Technology, Warangal-506004",
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
 },
 {
@@ -246,11 +236,6 @@ const indianSpeakers: IndianSpeaker[] = [
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
 },
 {
-    name: "Dr. Anushree Dutta",
-    affiliation: "Metallurgical & Materials Engineering, NIT Jamshedpur",
-    image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
-},
-{
     name: "Apurbba Kumar Sharma",
     affiliation: "Mechanical and Industrial Engineering Department, IIT Roorkee",
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
@@ -348,11 +333,6 @@ const indianSpeakers: IndianSpeaker[] = [
 {
     name: "Rakesh K Gautam",
     affiliation: "Professor, Department of Mechanical Engineering, IIT BHU",
-    image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
-},
-{
-    name: "Dr. Sandip Bysakh",
-    affiliation: "Multiscale Microstructure & Mechanics of Materials (4M), CSIR-CGCRI",
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
 },
 {
