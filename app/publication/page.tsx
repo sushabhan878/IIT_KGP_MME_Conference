@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar'
 import React from 'react'
 
-const Awards = () => {
+const Publication = () => {
   return (
     <div>
       <Navbar />
@@ -9,4 +9,4 @@ const Awards = () => {
   )
 }
 
-export default Awards
+export default Publication
