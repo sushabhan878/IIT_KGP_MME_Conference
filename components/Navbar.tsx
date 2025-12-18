@@ -114,11 +114,11 @@ const Navbar = () => {
                       Speakers
                     </Link>
                     <Link
-                      href="/publications"
+                      href="/accomodation"
                       className="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150 border-l-4 border-transparent hover:border-blue-600"
                       role="menuitem"
                     >
-                      Publications
+                      Accommodation
                     </Link>
                     <Link
                       href="/preconference"
@@ -152,8 +152,8 @@ const Navbar = () => {
             <Link href="/sponsorships" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
               Sponsorships
             </Link>
-            <Link href="/accomodation" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
-              Accommodation
+            <Link href="/publications" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
+              Publications
             </Link>
             <Link href="/contactUs" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
               Contact Us
@@ -217,8 +217,8 @@ const Navbar = () => {
                   <Link href="/speakers" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
                     Speakers
                   </Link>
-                  <Link href="/publications" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
-                    Publications
+                  <Link href="/accomodation" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
+                    Accommodation
                   </Link>
                   <Link href="/preconference-certification" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
                     Preconference Certification
@@ -239,8 +239,8 @@ const Navbar = () => {
             <Link href="/sponsorships" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800">
               Sponsorships
             </Link>
-            <Link href="/accomodation" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800">
-              Accommodation
+            <Link href="/publications" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800">
+              Publications
             </Link>
             <Link href="/contactUs" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800">
               Contact Us
