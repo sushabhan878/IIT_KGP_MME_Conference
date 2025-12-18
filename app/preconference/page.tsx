@@ -103,6 +103,12 @@ const PreconferenceCertificate = () => {
             <p className="text-lg font-bold text-slate-50">
               INR 15,000 + GST per delegate
             </p>
+            <p className="mt-2 text-xs md:text-sm text-slate-200 leading-snug">
+              <span className="font-semibold">Concession:</span> For delegates already
+              registered for the main conference, the preconference course fee is
+              <span className="font-semibold"> INR 7,500 + GST</span>{' '}
+              (<span className="font-semibold">50% waiver</span>).
+            </p>
           </div>
         </section>
 

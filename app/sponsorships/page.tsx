@@ -11,6 +11,27 @@ const Sponsorships = () => {
                 {/* Our Sponsors Section */}
                 <div className="mb-12">
                     <h2 className="text-4xl font-bold mb-8 text-center">Our Sponsors</h2>
+
+                    {/* Platinum Sponsor (Top) */}
+                    <div className="flex justify-center mb-7">
+                        <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-purple-500 flex-1 min-w-[220px] max-w-[320px]">
+                            <div className="flex flex-col items-center h-full">
+                                <div className="mb-4 h-24 w-full flex items-center justify-center">
+                                <img 
+                                        src="https://res.cloudinary.com/damnmi4ya/image/upload/v1766045315/crVXASVjbWYfM5bHK5s76qwL5aLZz3lkMmQe3TW3-removebg-preview_vci171.png" 
+                                        alt="ANRF Logo" 
+                                        className="h-full w-full object-contain"
+                                        onError={(e) => {
+                                            const target = e.target as HTMLImageElement;
+                                            target.style.display = 'none';
+                                        }}
+                                    />
+                                </div>
+                                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">ANRF</h4>
+                                <span className="text-xs font-medium text-purple-700 bg-purple-50 px-3 py-1 rounded-full">Platinum Sponsor</span>
+                            </div>
+                        </div>
+                    </div>
                     
                     {/* Row 1: Gold and Silver Sponsors */}
                     <div className="flex flex-wrap justify-center gap-6 mb-6">
