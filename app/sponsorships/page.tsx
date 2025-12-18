@@ -38,7 +38,7 @@ const Sponsorships = () => {
                             <div className="flex flex-col items-center h-full">
                                 <div className="mb-4 h-24 w-full flex items-center justify-center">
                                     <img 
-                                        src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429985/kan-logo-kan-letter-kan-letter-logo-design-initials-kan-logo-linked-with-circle-and-uppercase-monogram-logo-kan-typography-for-technology-busines-2RCM6X3-removebg-preview_xk81ek.png" 
+                                        src="https://res.cloudinary.com/damnmi4ya/image/upload/v1766038639/kan-tht-logo-removebg-preview_lj8gk1.png" 
                                         alt="KAN-THT India Logo" 
                                         className="h-full w-full object-contain"
                                         onError={(e) => {
