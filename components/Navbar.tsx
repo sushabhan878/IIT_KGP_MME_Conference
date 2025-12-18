@@ -127,13 +127,13 @@ const Navbar = () => {
                     >
                       Preconference Certification
                     </Link>
-                    <Link
+                    {/* <Link
                       href="/awards"
                       className="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150 border-l-4 border-transparent hover:border-blue-600"
                       role="menuitem"
                     >
                       Awards
-                    </Link>
+                    </Link> */}
                     <Link
                       href="/gallery"
                       className="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150 border-l-4 border-transparent hover:border-blue-600"
@@ -223,9 +223,9 @@ const Navbar = () => {
                   <Link href="/preconference-certification" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
                     Preconference Certification
                   </Link>
-                  <Link href="/awards" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
+                  {/* <Link href="/awards" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
                     Awards
-                  </Link>
+                  </Link> */}
                   <Link href="/gallery" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
                     Gallery
                   </Link>
