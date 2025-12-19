@@ -6,15 +6,78 @@ const Publication = () => {
     <>
       <Navbar />
       <main className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-slate-100 pt-24 pb-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <section className="mb-16">
             <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight text-center mb-4">
               Publications
             </h1>
-            <p className="text-center text-slate-300 max-w-2xl mx-auto">
+            <p className="text-center text-slate-300 max-w-2xl mx-auto mb-12">
               The selected papers will be published in peer-reviewed journals or conference
               proceedings after thorough review.
             </p>
+
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto mb-16">
+              <div className="rounded-2xl border border-slate-800 bg-slate-900/60 backdrop-blur-md p-6 shadow-lg shadow-slate-900/40">
+                <div className="flex flex-col sm:flex-row gap-4 items-start">
+                  <img
+                    src="https://tse1.mm.bing.net/th/id/OIP.KbX_izxBv6lcqbvKAOkXdAAAAA?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+                    alt="Lasers in Engineering Journal Cover"
+                    className="w-32 h-auto rounded-lg border border-slate-700 shadow-md"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold mb-2 text-slate-50">
+                      Lasers in Engineering
+                    </h3>
+                    <p className="text-slate-400 text-sm mb-2">
+                      Old City Publishing
+                    </p>
+                    <p className="text-slate-300 text-sm">
+                      A peer-reviewed journal covering advances in laser technology and its applications in engineering fields.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-slate-800 bg-slate-900/60 backdrop-blur-md p-6 shadow-lg shadow-slate-900/40">
+                <div className="flex flex-col sm:flex-row gap-4 items-start">
+                  <img
+                    src="https://media.springernature.com/w180/springer-static/cover/journal/41403/9/1.jpg?as=webp"
+                    alt="Transaction INAE Journal Cover"
+                    className="w-32 h-auto rounded-lg border border-slate-700 shadow-md"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold mb-2 text-slate-50">
+                      Transaction INAE
+                    </h3>
+                    <p className="text-slate-400 text-sm mb-2">
+                      Indian National Academy of Engineering
+                    </p>
+                    <p className="text-slate-300 text-sm">
+                      A prestigious journal published by the Indian National Academy of Engineering covering engineering research and innovations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-slate-800 bg-slate-900/60 backdrop-blur-md p-6 shadow-lg shadow-slate-900/40">
+                <div className="flex flex-col sm:flex-row gap-4 items-start">
+                  <div className="w-32 h-40 rounded-lg border border-slate-700 shadow-md bg-slate-800/50 flex items-center justify-center">
+                    <span className="text-slate-500 text-xs text-center">Image Coming Soon</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold mb-2 text-slate-50">
+                      Journal Name
+                    </h3>
+                    <p className="text-slate-400 text-sm mb-2">
+                      Publisher Name
+                    </p>
+                    <p className="text-slate-300 text-sm">
+                      Description of the journal will be added here.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
 
           <section className="grid gap-8 md:grid-cols-2">
