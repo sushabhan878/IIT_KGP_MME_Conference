@@ -49,7 +49,7 @@ const Sponsorships = () => {
                   />
                 </div>
                 <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">
-                  SPARK
+                  SPARC
                 </h4>
                 <span className="text-xs font-medium text-purple-700 bg-purple-50 px-3 py-1 rounded-full">
                   Platinum Sponsor
