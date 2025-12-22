@@ -15,11 +15,6 @@ const studentCoordinater = [
         title: "Research Scholar",
     },
     {
-        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-        name: "Mr. Shree Krishna",
-        title: "Research Scholar",
-    },
-    {
         name: "Bidipta Dam",
         title: "Research Scholar",
         image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
@@ -28,6 +23,11 @@ const studentCoordinater = [
         name: "Barsha Nag",
         title: "Research Scholar",
         image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
+    },
+    {
+        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+        name: "Shree Krishna",
+        title: "Research Scholar",
     },
     {
         name: "Sushabhan Majumdar",
