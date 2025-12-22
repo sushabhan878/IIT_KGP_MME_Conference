@@ -46,8 +46,43 @@ const technicalCoordinators = [
   },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-    name: "Dr. Rishi Sharma",
-    title: "BIT Mesra",
+    name: "Dr. Mitun Das",
+    title: "CSIR CGCRI",
+  },
+  {
+    image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+    name: "Dr. Renu Kumari",
+    title: "NIT Jamshedpur",
+  },
+  {
+    image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+    name: "Dr. Pradyut Sengupta",
+    title: "CSIR IMMT",
+  },
+  {
+    image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+    name: "Prof. M Gopinath",
+    title: "IIT Hyderabad",
+  },
+  {
+    image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+    name: "Prof. Ravi K. R.",
+    title: "IIT jodhpur",
+  },
+  {
+    image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+    name: "Prof. Harpreet Singh",
+    title: "IIT Ropar",
+  },
+  {
+    image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+    name: "Prof. Debdas Roy",
+    title: "NIAMT Ranchi",
+  },
+  {
+    image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+    name: "Prof. Manoj Chopkar",
+    title: "NIT Raipur",
   }
 ];
 
