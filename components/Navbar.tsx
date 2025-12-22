@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import React, { useState, useRef, useEffect } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React, { useState, useRef, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,8 +42,8 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-4">
-        <div className="flex justify-between h-16">
+      <div className="w-full px-3 sm:px-4">
+        <div className="flex items-center justify-between h-16 gap-8">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center space-x-2">
               <Link href="/" className="flex items-center">
@@ -54,41 +54,55 @@ const Navbar = () => {
                   width={20}
                   height={20}
                 />
-                <span className="ml-3 mt-2 text-4xl font-bold bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-clip-text">FSEAM 2026</span>
+                <span className="ml-3 mt-2 text-4xl font-bold bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-clip-text">
+                  FSEAM 2026
+                </span>
               </Link>
             </div>
           </div>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center justify-between space-x-4">
-            <Link href="/" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
+          <div className="hidden md:flex items-center justify-between space-x-5 ml-10">
+            <Link
+              href="/"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800"
+            >
               Home
             </Link>
-            
+
             {/* About Event with dropdown */}
             <div
               className="relative"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <Link href="/about-event" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800 transition-colors duration-200 flex items-center">
+              <Link
+                href="/about-event"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800 transition-colors duration-200 flex items-center"
+              >
                 About Event
                 <svg
-                  className={`ml-1 h-4 w-4 transition-transform duration-200 ${isAboutEventHovered ? 'transform rotate-180' : ''}`}
+                  className={`ml-1 h-4 w-4 transition-transform duration-200 ${
+                    isAboutEventHovered ? "transform rotate-180" : ""
+                  }`}
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
-                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                  <path
+                    fillRule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
                 </svg>
               </Link>
-              
+
               {/* Dropdown menu */}
               <div
                 className={`absolute left-0 pt-3 z-50 transition-all duration-300 ease-in-out ${
                   isAboutEventHovered
-                    ? 'opacity-100 translate-y-0 pointer-events-auto'
-                    : 'opacity-0 -translate-y-2 pointer-events-none'
+                    ? "opacity-100 translate-y-0 pointer-events-auto"
+                    : "opacity-0 -translate-y-2 pointer-events-none"
                 }`}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
@@ -96,7 +110,7 @@ const Navbar = () => {
                 {/* Arrow pointer */}
                 <div className="absolute top-2 left-4 w-0 h-0 border-l-8 border-r-8 border-b-8 border-l-transparent border-r-transparent border-b-gray-200"></div>
                 <div className="absolute top-2.5 left-4 w-0 h-0 border-l-8 border-r-8 border-b-8 border-l-transparent border-r-transparent border-b-white"></div>
-                
+
                 <div className="mt-2 w-64 rounded-lg shadow-xl bg-white border border-gray-200 overflow-hidden">
                   <div className="py-2" role="menu">
                     <Link
@@ -145,21 +159,36 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-            
-            <Link href="/registration" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
+
+            <Link
+              href="/registration"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800"
+            >
               Registration
             </Link>
-            <Link href="/abstruct" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
+            <Link
+              href="/abstruct"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800"
+            >
               Abstract Submission
             </Link>
-            <Link href="/sponsorships" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
-              Sponsorships
-            </Link>
-            <Link href="/publications" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
+            <Link
+              href="/publications"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800"
+            >
               Publications
             </Link>
-            <Link href="/contactUs" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
-              Contact Us
+            <Link
+              href="/sponsorships"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800"
+            >
+              Sponsorships
+            </Link>
+            <Link
+              href="/tourism-places"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800"
+            >
+              Nearby Tourism Places
             </Link>
           </div>
 
@@ -171,12 +200,36 @@ const Navbar = () => {
             >
               <span className="sr-only">Open main menu</span>
               {!isMenuOpen ? (
-                <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                <svg
+                  className="block h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
                 </svg>
               ) : (
-                <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                <svg
+                  className="block h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
                 </svg>
               )}
             </button>
@@ -188,10 +241,13 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link href="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800">
+            <Link
+              href="/"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800"
+            >
               Home
             </Link>
-            
+
             {/* About Event with expandable submenu on mobile */}
             <div>
               <button
@@ -200,54 +256,92 @@ const Navbar = () => {
               >
                 <span>About Event</span>
                 <svg
-                  className={`h-5 w-5 transition-transform ${isMobileAboutEventOpen ? 'transform rotate-180' : ''}`}
+                  className={`h-5 w-5 transition-transform ${
+                    isMobileAboutEventOpen ? "transform rotate-180" : ""
+                  }`}
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
-                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                  <path
+                    fillRule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
                 </svg>
               </button>
               <div
                 className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                  isMobileAboutEventOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                  isMobileAboutEventOpen
+                    ? "max-h-96 opacity-100"
+                    : "max-h-0 opacity-0"
                 }`}
               >
                 <div className="pl-4 mt-1 space-y-1 pb-2">
-                  <Link href="/organizors" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
+                  <Link
+                    href="/organizors"
+                    className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150"
+                  >
                     Organizers
                   </Link>
-                  <Link href="/speakers" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
+                  <Link
+                    href="/speakers"
+                    className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150"
+                  >
                     Speakers
                   </Link>
-                  <Link href="/accomodation" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
+                  <Link
+                    href="/accomodation"
+                    className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150"
+                  >
                     Accommodation
                   </Link>
-                  <Link href="/preconference-certification" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
+                  <Link
+                    href="/preconference-certification"
+                    className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150"
+                  >
                     Preconference Certification
                   </Link>
                   {/* <Link href="/awards" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
                     Awards
                   </Link> */}
-                  <Link href="/gallery" className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150">
+                  <Link
+                    href="/gallery"
+                    className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150"
+                  >
                     Gallery
                   </Link>
                 </div>
               </div>
             </div>
-            <Link href="/registration" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800">
+            <Link
+              href="/registration"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800"
+            >
               Registration
             </Link>
-            <Link href="/abstruct" className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800">
+            <Link
+              href="/abstruct"
+              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800"
+            >
               Abstract Submission
             </Link>
-            <Link href="/sponsorships" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800">
+            <Link
+              href="/sponsorships"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800"
+            >
               Sponsorships
             </Link>
-            <Link href="/publications" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800">
+            <Link
+              href="/publications"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800"
+            >
               Publications
             </Link>
-            <Link href="/contactUs" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800">
+            <Link
+              href="/contactUs"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800"
+            >
               Contact Us
             </Link>
           </div>
