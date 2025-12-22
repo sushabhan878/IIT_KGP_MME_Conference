@@ -155,6 +155,13 @@ const Navbar = () => {
                     >
                       Gallery
                     </Link>
+                    <Link
+                      href="/contactUs"
+                      className="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150 border-l-4 border-transparent hover:border-blue-600"
+                      role="menuitem"
+                    >
+                      Contact Us
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -311,6 +318,12 @@ const Navbar = () => {
                   >
                     Gallery
                   </Link>
+                  <Link
+                    href="/contactUs"
+                    className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150"
+                  >
+                    Contact Us
+                  </Link>
                 </div>
               </div>
             </div>
@@ -322,7 +335,7 @@ const Navbar = () => {
             </Link>
             <Link
               href="/abstruct"
-              className="px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800"
+              className="block px-3 py-2 rounded-md text-sm font-medium text-gray-900 hover:text-blue-800"
             >
               Abstract Submission
             </Link>
@@ -339,10 +352,10 @@ const Navbar = () => {
               Publications
             </Link>
             <Link
-              href="/contactUs"
+              href="/tourism-places"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-800"
             >
-              Contact Us
+              Nearby Tourism Places
             </Link>
           </div>
         </div>
