@@ -33,6 +33,11 @@ const technicalCoordinators = [
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
     name: "Dr. Gayatri Paul",
     title: "BIT Mesra",
+  },
+  {
+    image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+    name: "Prof. Rishi Sharma",
+    title: "BIT Mesra",
     },
   {
     image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
