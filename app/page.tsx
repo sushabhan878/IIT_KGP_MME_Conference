@@ -55,37 +55,37 @@ const Home = () => {
         </div>
 
         {/* Full-width marquee highlighting publishers */}
-        <div className="sticky top-[calc(4rem+3rem)] z-40 mx-[calc(50%-50vw)] w-screen border-y border-blue-400/30 bg-gradient-to-r from-blue-500/20 via-blue-400/30 to-blue-500/20 backdrop-blur-sm">
+        <div className="sticky top-[calc(4rem+3rem)] z-40 mx-[calc(50%-50vw)] w-screen border-y border-blue-400/30 bg-gradient-to-r from-blue-500/80 via-blue-400/50 to-blue-500/80 backdrop-blur-sm">
           <div className="relative overflow-hidden marquee-viewport">
-            <div className="animate-marquee-immediate whitespace-nowrap py-3 text-blue-100">
+            <div className="animate-marquee-immediate whitespace-nowrap py-3 text-black">
               <span className="px-10 font-semibold tracking-wider uppercase">
                 Lasers in Engineering | Old City Publishing
               </span>
-              <span className="px-6 text-blue-200/60">•</span>
+              <span className="px-6 text-black">•</span>
               <span className="px-10 font-medium uppercase">
                 Transactions INAE | Indian National Academy of Engineering
               </span>
-              <span className="px-6 text-blue-200/60">•</span>
+              <span className="px-6 text-black">•</span>
               <span className="px-10 font-semibold tracking-wider uppercase">
                 Selected papers will be published in peer-reviewed journals
               </span>
-              <span className="px-6 text-blue-200/60">•</span>
+              <span className="px-6 text-black">•</span>
               <span className="px-10 font-medium uppercase">
                 Lasers in Engineering | Old City Publishing
               </span>
-              <span className="px-6 text-blue-200/60">•</span>
+              <span className="px-6 text-black">•</span>
               <span className="px-10 font-semibold tracking-wider uppercase">
                 Transactions INAE | Indian National Academy of Engineering
               </span>
-              <span className="px-6 text-blue-200/60">•</span>
+              <span className="px-6 text-black">•</span>
               <span className="px-10 font-medium uppercase">
                 Selected papers will be published in peer-reviewed journals
               </span>
-              <span className="px-6 text-blue-200/60">•</span>
+              <span className="px-6 text-black">•</span>
               <span className="px-10 font-semibold tracking-wider uppercase">
                 Selected papers will be published in peer-reviewed journals
               </span>
-              <span className="px-6 text-blue-200/60">•</span>
+              <span className="px-6 text-black">•</span>
             </div>
           </div>
         </div>
