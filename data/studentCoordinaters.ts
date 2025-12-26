@@ -10,7 +10,7 @@ const studentCoordinater = [
         title: "Research Scholar",
     },
             {
-        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1766725486/WhatsApp_Image_2025-12-24_at_20.28.36_hb9d8b.jpg",
         name: "Mr. Kishan Kumar",
         title: "Research Scholar",
     },

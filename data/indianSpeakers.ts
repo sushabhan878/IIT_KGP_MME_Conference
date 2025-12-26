@@ -114,11 +114,6 @@ const indianSpeakers: IndianSpeaker[] = [
         affiliation: "Glass & Advanced Materials Division, Bhabha Atomic Research Centre, Mumbai, India",
         image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1766382750/Screenshot_2025-12-22_112151_auky2b.png"
     },
-    {
-        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
-        name: "Prof. Rishi Sharma",
-        affiliation: "BIT Mesra",
-    },
    
 
 
