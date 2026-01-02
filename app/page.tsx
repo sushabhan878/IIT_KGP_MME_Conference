@@ -66,6 +66,11 @@ const Home = () => {
                 Transactions INAE | Indian National Academy of Engineering
               </span>
               <span className="px-6 text-black">•</span>
+              <span className="px-10 font-medium uppercase">
+                Journal of Materials Engineering and Performance | Springer
+                Nature
+              </span>
+              <span className="px-6 text-black">•</span>
               <span className="px-10 font-semibold tracking-wider uppercase">
                 Selected papers will be published in peer-reviewed journals
               </span>
@@ -76,6 +81,11 @@ const Home = () => {
               <span className="px-6 text-black">•</span>
               <span className="px-10 font-semibold tracking-wider uppercase">
                 Transactions INAE | Indian National Academy of Engineering
+              </span>
+              <span className="px-6 text-black">•</span>
+              <span className="px-10 font-medium uppercase">
+                Journal of Materials Engineering and Performance | Springer
+                Nature
               </span>
               <span className="px-6 text-black">•</span>
               <span className="px-10 font-medium uppercase">

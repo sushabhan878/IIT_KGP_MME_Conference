@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import PageLayout from "@/components/PageLayout";
-
+import SponsorCard from "@/components/SponsorCard";
 const Sponsorships = () => {
   return (
     <PageLayout>
@@ -35,6 +35,29 @@ const Sponsorships = () => {
                 </span>
               </div>
             </div>
+
+            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-purple-500 flex-1 min-w-[220px] max-w-[320px]">
+              <div className="flex flex-col items-center h-full">
+                <div className="mb-4 h-24 w-full flex items-center justify-center">
+                  <img
+                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1767329192/OIP_ig0mow.webp"
+                    alt="ISRO Logo"
+                    className="h-full w-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = "none";
+                    }}
+                  />
+                </div>
+                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">
+                  ISRO
+                </h4>
+                <span className="text-xs font-medium text-purple-700 bg-purple-50 px-3 py-1 rounded-full">
+                  Platinum Sponsor
+                </span>
+              </div>
+            </div>
+
             <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-purple-500 flex-1 min-w-[220px] max-w-[320px]">
               <div className="flex flex-col items-center h-full">
                 <div className="mb-4 h-24 w-full flex items-center justify-center">
@@ -57,185 +80,82 @@ const Sponsorships = () => {
               </div>
             </div>
           </div>
+          {/* Sponsors Section */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-10 place-items-center">
+            {/* Gold Sponsor */}
+            <SponsorCard
+              name="Ametek India"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429976/p-1290-9-ametek-logo-png-transparent-logo-591548730419_mm7efi.png"
+              tier="Gold Sponsor"
+              border="border-yellow-400"
+              badge="text-yellow-700 bg-yellow-50"
+            />
 
-          {/* Row 1: Gold and Silver Sponsors */}
-          <div className="flex flex-wrap justify-center gap-6 mb-6">
-            {/* Gold Sponsor 1 */}
-            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-yellow-400 flex-1 min-w-[200px] max-w-[280px]">
-              <div className="flex flex-col items-center h-full">
-                <div className="mb-4 h-24 w-full flex items-center justify-center">
-                  <img
-                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429976/p-1290-9-ametek-logo-png-transparent-logo-591548730419_mm7efi.png"
-                    alt="Ametek India Logo"
-                    className="h-full w-full object-contain"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = "none";
-                    }}
-                  />
-                </div>
-                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">
-                  Ametek India
-                </h4>
-                <span className="text-xs font-medium text-yellow-600 bg-yellow-50 px-3 py-1 rounded-full">
-                  Gold Sponsor
-                </span>
-              </div>
-            </div>
+            <SponsorCard
+              name="KAN-THT India"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1766038639/kan-tht-logo-removebg-preview_lj8gk1.png"
+              tier="Gold Sponsor"
+              border="border-yellow-400"
+              badge="text-yellow-700 bg-yellow-50"
+            />
 
-            {/* Gold Sponsor 2 */}
-            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-yellow-400 flex-1 min-w-[200px] max-w-[280px]">
-              <div className="flex flex-col items-center h-full">
-                <div className="mb-4 h-24 w-full flex items-center justify-center">
-                  <img
-                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1766038639/kan-tht-logo-removebg-preview_lj8gk1.png"
-                    alt="KAN-THT India Logo"
-                    className="h-full w-full object-contain"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = "none";
-                    }}
-                  />
-                </div>
-                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">
-                  KAN-THT India
-                </h4>
-                <span className="text-xs font-medium text-yellow-600 bg-yellow-50 px-3 py-1 rounded-full">
-                  Gold Sponsor
-                </span>
-              </div>
-            </div>
+            <SponsorCard
+              name="Damodar Valley Corporation (DVC)"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767329578/OIP_1_wriuo6.webp"
+              tier="Gold Sponsor"
+              border="border-yellow-400"
+              badge="text-yellow-700 bg-yellow-50"
+            />
 
-            {/* Silver Sponsor 1 */}
-            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-gray-400 flex-1 min-w-[200px] max-w-[280px]">
-              <div className="flex flex-col items-center h-full">
-                <div className="mb-4 h-24 w-full flex items-center justify-center">
-                  <img
-                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429976/Carl_Zeiss_AG-Logo.wine_p0uxrr.png"
-                    alt="Carl Ziss India Logo"
-                    className="h-full w-full object-contain"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = "none";
-                    }}
-                  />
-                </div>
-                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">
-                  Carl Zeiss India
-                </h4>
-                <span className="text-xs font-medium text-gray-600 bg-gray-50 px-3 py-1 rounded-full">
-                  Silver Sponsor
-                </span>
-              </div>
-            </div>
+            {/* Silver Sponsors */}
+            <SponsorCard
+              name="Carl Zeiss India"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429976/Carl_Zeiss_AG-Logo.wine_p0uxrr.png"
+              tier="Silver Sponsor"
+              border="border-gray-400"
+              badge="text-gray-700 bg-gray-100"
+            />
 
-            {/* Silver Sponsor 2 */}
-            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-gray-400 flex-1 min-w-[200px] max-w-[280px]">
-              <div className="flex flex-col items-center h-full">
-                <div className="mb-4 h-24 w-full flex items-center justify-center">
-                  <img
-                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429984/jeol_ogp-removebg-preview_l2dowm.png"
-                    alt="Jeol India Logo"
-                    className="h-full w-full object-contain"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = "none";
-                    }}
-                  />
-                </div>
-                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">
-                  Jeol India
-                </h4>
-                <span className="text-xs font-medium text-gray-600 bg-gray-50 px-3 py-1 rounded-full">
-                  Silver Sponsor
-                </span>
-              </div>
-            </div>
-          </div>
+            <SponsorCard
+              name="Jeol India"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429984/jeol_ogp-removebg-preview_l2dowm.png"
+              tier="Silver Sponsor"
+              border="border-gray-400"
+              badge="text-gray-700 bg-gray-100"
+            />
 
-          {/* Row 2: Non-Categorized Sponsors */}
-          <div className="flex flex-wrap justify-center gap-6">
-            {/* Sponsor 1 */}
-            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-blue-400 flex-1 min-w-[200px] max-w-[280px]">
-              <div className="flex flex-col items-center h-full">
-                <div className="mb-4 h-24 w-full flex items-center justify-center">
-                  <img
-                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430782/logo_ducom-removebg-preview_lzu0xr.png"
-                    alt="Ducom Instruments Logo"
-                    className="h-full w-full object-contain"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = "none";
-                    }}
-                  />
-                </div>
-                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">
-                  Ducom Instruments
-                </h4>
-              </div>
-            </div>
+            <SponsorCard
+              name="Forevision Instruments (INDIA) PVT. LTD."
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767329192/WhatsApp_Image_2025-12-31_at_21.12.30_aqfkgw.jpg"
+              tier="Silver Sponsor"
+              border="border-gray-400"
+              badge="text-gray-700 bg-gray-100"
+            />
 
-            {/* Sponsor 2 */}
-            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-blue-400 flex-1 min-w-[200px] max-w-[280px]">
-              <div className="flex flex-col items-center h-full">
-                <div className="mb-4 h-24 w-full flex items-center justify-center">
-                  <img
-                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430783/steel-authority-of-india-vector-logo-115742587135vlvf4po38-removebg-preview_wytnko.png"
-                    alt="Steel Authority of India Limited Logo"
-                    className="h-full w-full object-contain"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = "none";
-                    }}
-                  />
-                </div>
-                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">
-                  Steel Authority of India Limited
-                </h4>
-              </div>
-            </div>
+            {/* Sponsors */}
+            <SponsorCard
+              name="Ducom Instruments"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430782/logo_ducom-removebg-preview_lzu0xr.png"
+              border="border-blue-400"
+            />
 
-            {/* Sponsor 3 */}
-            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-blue-400 flex-1 min-w-[200px] max-w-[280px]">
-              <div className="flex flex-col items-center h-full">
-                <div className="mb-4 h-24 w-full flex items-center justify-center">
-                  <img
-                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765782093/WhatsApp_Image_2025-12-11_at_13.53.37_jrqfzw.jpg"
-                    alt="CAIES Foundation Logo"
-                    className="h-full w-full object-contain"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = "none";
-                    }}
-                  />
-                </div>
-                <h4 className="text-base font-semibold text-center mb-2 text-gray-900">
-                  The Center of Artificial Intelligence and Environmental
-                  Sustainability (CAIES)
-                </h4>
-                {/* <h4 className="text-base font-semibold text-center mb-2 text-gray-900">CAIES</h4> */}
-              </div>
-            </div>
+            <SponsorCard
+              name="Steel Authority of India Limited"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430783/steel-authority-of-india-vector-logo-115742587135vlvf4po38-removebg-preview_wytnko.png"
+              border="border-blue-400"
+            />
 
-            {/* Sponsor 4 */}
-            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-blue-400 flex-1 min-w-[200px] max-w-[280px]">
-              <div className="flex flex-col items-center h-full">
-                <div className="mb-4 h-24 w-full flex items-center justify-center">
-                  <img
-                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430790/CSIR_skfcbs.png"
-                    alt="CSIR-CSIO Logo"
-                    className="h-full w-full object-contain"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = "none";
-                    }}
-                  />
-                </div>
-                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">
-                  CSIR-CSIO
-                </h4>
-              </div>
-            </div>
+            <SponsorCard
+              name="The Center of Artificial Intelligence and Environmental Sustainability (CAIES)"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765782093/WhatsApp_Image_2025-12-11_at_13.53.37_jrqfzw.jpg"
+              border="border-blue-400"
+            />
+
+            <SponsorCard
+              name="CSIR-CSIO"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430790/CSIR_skfcbs.png"
+              border="border-blue-400"
+            />
           </div>
         </div>
 

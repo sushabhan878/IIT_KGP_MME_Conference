@@ -1,5 +1,5 @@
-import Navbar from '@/components/Navbar'
-import React from 'react'
+import Navbar from "@/components/Navbar";
+import React from "react";
 
 const Publication = () => {
   return (
@@ -12,8 +12,8 @@ const Publication = () => {
               Publications
             </h1>
             <p className="text-center text-slate-300 max-w-2xl mx-auto mb-12">
-              The selected papers will be published in peer-reviewed journals or conference
-              proceedings after thorough review.
+              The selected papers will be published in peer-reviewed journals or
+              conference proceedings after thorough review.
             </p>
 
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto mb-16">
@@ -32,7 +32,8 @@ const Publication = () => {
                       Old City Publishing
                     </p>
                     <p className="text-slate-300 text-sm">
-                      A peer-reviewed journal covering advances in laser technology and its applications in engineering fields.
+                      A peer-reviewed journal covering advances in laser
+                      technology and its applications in engineering fields.
                     </p>
                   </div>
                 </div>
@@ -53,7 +54,9 @@ const Publication = () => {
                       Indian National Academy of Engineering
                     </p>
                     <p className="text-slate-300 text-sm">
-                      A prestigious journal published by the Indian National Academy of Engineering covering engineering research and innovations.
+                      A prestigious journal published by the Indian National
+                      Academy of Engineering covering engineering research and
+                      innovations.
                     </p>
                   </div>
                 </div>
@@ -61,18 +64,22 @@ const Publication = () => {
 
               <div className="rounded-2xl border border-slate-800 bg-slate-900/60 backdrop-blur-md p-6 shadow-lg shadow-slate-900/40">
                 <div className="flex flex-col sm:flex-row gap-4 items-start">
-                  <div className="w-32 h-40 rounded-lg border border-slate-700 shadow-md bg-slate-800/50 flex items-center justify-center">
-                    <span className="text-slate-500 text-xs text-center">Image Coming Soon</span>
-                  </div>
+                  <img
+                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1767327946/11665_zwbboe.webp"
+                    alt="Journal Cover"
+                    className="w-32 h-auto rounded-lg border border-slate-700 shadow-md"
+                  />
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold mb-2 text-slate-50">
-                      Journal Name
+                      Journal of Materials Engineering and Performance
                     </h3>
                     <p className="text-slate-400 text-sm mb-2">
-                      Publisher Name
+                      Springer Nature
                     </p>
                     <p className="text-slate-300 text-sm">
-                      Description of the journal will be added here.
+                      JMEP publishes peer-reviewed research on materials
+                      engineering that addresses practical engineering
+                      challenges.
                     </p>
                   </div>
                 </div>
@@ -87,18 +94,18 @@ const Publication = () => {
               </h2>
               <ul className="list-disc list-inside space-y-2 text-slate-300 text-sm sm:text-base">
                 <li>
-                  Selected high-quality contributions will be recommended for publication in
-                  reputed peer-reviewed journals in the broad area of materials and
-                  metallurgical engineering.
+                  Selected high-quality contributions will be recommended for
+                  publication in reputed peer-reviewed journals in the broad
+                  area of materials and metallurgical engineering.
                 </li>
                 <li>
-                  Only papers that successfully complete the full journal review process will
-                  be accepted for publication; acceptance to the conference does not guarantee
-                  journal publication.
+                  Only papers that successfully complete the full journal review
+                  process will be accepted for publication; acceptance to the
+                  conference does not guarantee journal publication.
                 </li>
                 <li>
-                  Authors may be requested to submit an extended/modified version of the paper
-                  to meet journal requirements.
+                  Authors may be requested to submit an extended/modified
+                  version of the paper to meet journal requirements.
                 </li>
               </ul>
             </div>
@@ -109,16 +116,17 @@ const Publication = () => {
               </h2>
               <ul className="list-disc list-inside space-y-2 text-slate-300 text-sm sm:text-base">
                 <li>
-                  All accepted and presented papers will be considered for inclusion in the
-                  official conference proceedings (with ISBN).
+                  All accepted and presented papers will be considered for
+                  inclusion in the official conference proceedings (with ISBN).
                 </li>
                 <li>
-                  Only papers presented by at least one registered author during the
-                  conference will be eligible for proceedings publication.
+                  Only papers presented by at least one registered author during
+                  the conference will be eligible for proceedings publication.
                 </li>
                 <li>
-                  The organizers reserve the right to screen submissions for quality,
-                  technical content, and plagiarism before proceeding to publication.
+                  The organizers reserve the right to screen submissions for
+                  quality, technical content, and plagiarism before proceeding
+                  to publication.
                 </li>
               </ul>
             </div>
@@ -130,19 +138,21 @@ const Publication = () => {
             </h2>
             <ul className="list-disc list-inside space-y-1">
               <li>
-                Detailed information about partner journals, indexing, and templates will be
-                announced on this page and communicated to registered authors.
+                Detailed information about partner journals, indexing, and
+                templates will be announced on this page and communicated to
+                registered authors.
               </li>
               <li>
-                The decision of the technical and publication committees will be final
-                regarding selection for journal or proceedings publication.
+                The decision of the technical and publication committees will be
+                final regarding selection for journal or proceedings
+                publication.
               </li>
             </ul>
           </section>
         </div>
       </main>
     </>
-  )
-}
+  );
+};
 
-export default Publication
+export default Publication;
