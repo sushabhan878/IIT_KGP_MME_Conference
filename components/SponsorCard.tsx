@@ -9,10 +9,9 @@ type SponsorCardProps = {
 const SponsorCard = ({ name, logo, tier, border, badge }: SponsorCardProps) => {
   return (
     <div
-      className={`bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 
-          border-t-4 ${border}
-          w-full sm:w-[240px] md:w-[260px] lg:w-[280px] xl:w-[286px]
-          h-[260px] flex items-center justify-center`}
+      className={`bg-white rounded-xl p-6 shadow-md hover:shadow-lg 
+      transition-all duration-300 border-t-4 ${border}
+      w-full max-w-[320px] h-[260px]`}
     >
       <div className="flex flex-col items-center text-center h-full justify-between">
         {/* Logo */}
@@ -20,7 +19,7 @@ const SponsorCard = ({ name, logo, tier, border, badge }: SponsorCardProps) => {
           <img
             src={logo}
             alt={`${name} Logo`}
-            className="h-full w-full object-contain"
+            className="max-h-full max-w-full object-contain"
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.style.display = "none";
@@ -29,7 +28,7 @@ const SponsorCard = ({ name, logo, tier, border, badge }: SponsorCardProps) => {
         </div>
 
         {/* Name */}
-        <h4 className="text-sm font-semibold text-gray-800 leading-tight px-1">
+        <h4 className="text-sm font-semibold text-gray-800 leading-snug px-2">
           {name}
         </h4>
 

@@ -81,7 +81,7 @@ const Sponsorships = () => {
             </div>
           </div>
           {/* Sponsors Section */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-10 place-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10 place-items-center">
             {/* Gold Sponsor */}
             <SponsorCard
               name="Ametek India"
@@ -102,6 +102,14 @@ const Sponsorships = () => {
             <SponsorCard
               name="Damodar Valley Corporation (DVC)"
               logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767329578/OIP_1_wriuo6.webp"
+              tier="Gold Sponsor"
+              border="border-yellow-400"
+              badge="text-yellow-700 bg-yellow-50"
+            />
+
+            <SponsorCard
+              name="Indian National Science Academy (INSA)"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767724005/WhatsApp_Image_2026-01-06_at_23.47.41_wxr3y8.jpg"
               tier="Gold Sponsor"
               border="border-yellow-400"
               badge="text-yellow-700 bg-yellow-50"
@@ -132,6 +140,24 @@ const Sponsorships = () => {
               badge="text-gray-700 bg-gray-100"
             />
 
+            <SponsorCard
+              name="Rtec Instruments"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767722619/WhatsApp_Image_2026-01-02_at_12.44.16_uwdlij.jpg"
+              tier="Silver Sponsor"
+              border="border-gray-400"
+              badge="text-gray-700 bg-gray-100"
+            />
+
+            {/* Technical Sponsor */}
+
+            <SponsorCard
+              name="INAE"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767722621/WhatsApp_Image_2026-01-06_at_18.13.26_uip1f1.jpg"
+              tier="Technical Sponsor"
+              border="border-blue-400"
+              badge="text-blue-700 bg-blue-100"
+            />
+
             {/* Sponsors */}
             <SponsorCard
               name="Ducom Instruments"
@@ -154,6 +180,12 @@ const Sponsorships = () => {
             <SponsorCard
               name="CSIR-CSIO"
               logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430790/CSIR_skfcbs.png"
+              border="border-blue-400"
+            />
+
+            <SponsorCard
+              name="CSIR-IMMT"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767722619/WhatsApp_Image_2026-01-06_at_18.06.33_olabvo.jpg"
               border="border-blue-400"
             />
           </div>
