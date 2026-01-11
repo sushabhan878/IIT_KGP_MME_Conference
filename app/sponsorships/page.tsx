@@ -148,6 +148,14 @@ const Sponsorships = () => {
               badge="text-gray-700 bg-gray-100"
             />
 
+            <SponsorCard
+              name="IR Technology Services Pvt Ltd"
+              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1768112148/WhatsApp_Image_2026-01-09_at_15.01.49_xuqvqj.jpg"
+              tier="Silver Sponsor"
+              border="border-gray-400"
+              badge="text-gray-700 bg-gray-100"
+            />
+
             {/* Technical Sponsor */}
 
             <SponsorCard
