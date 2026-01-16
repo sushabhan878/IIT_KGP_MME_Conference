@@ -1,30 +1,37 @@
+"use client";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="relative text-white overflow-hidden">
-      {/* Video Background */}
-      <div className="absolute inset-0 w-full h-full z-0">
-        <video
-          className="w-full h-full object-cover"
-          autoPlay
-          loop
-          muted
-          playsInline
-          src="https://res.cloudinary.com/damnmi4ya/video/upload/v1755942647/iitkgp_1_tmoyb9.mp4"
-        >
-          Your browser does not support the video tag.
-        </video>
-        {/* Dark overlay for better text visibility */}
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+    <div className="text-white">
+      {/* Banner Image */}
+      <div className="relative w-full">
+        <Image
+          src="https://ik.imagekit.io/fseam/Banner/FSEAM%202026%20Banner%20.png"
+          alt="FSEAM 2026 Banner"
+          width={1920}
+          height={600}
+          layout="responsive"
+          priority
+        />
       </div>
+      {/* <div
+          className="w-full h-full bg-cover bg-center"
+          style={{
+            backgroundImage: `url(https://ik.imagekit.io/fseam/Banner/FSEAM%202026%20Banner%20.png)`,
+            backgroundSize: "contain",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        ></div> */}
 
-      {/* Content */}
-      <div>
-        <div className="relative z-10 items-center justify-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+      {/* Content Section */}
+      <div className="bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
           {/* Download Buttons */}
-          <div className="flex flex-wrap gap-4 mb-8 z-20">
+          <div className="flex flex-wrap justify-center gap-4 mb-16">
             {/* FSEAM 2026 Brochure */}
             <a
               href="/FSEAM 2026 Brochure Updated 25-12-2025.pdf"
@@ -95,45 +102,44 @@ const Hero = () => {
               <div className="absolute inset-0 rounded-lg bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
             </a>
           </div>
-          <div className="text-6xl z-20 font-bold justify-center align-middle flex-center pb-6">
-            Join Us at{" "}
-            <span className="text-7xl text-blue-400">IIT Kharagpur</span>
+
+          {/* Title Section */}
+          <div className="mb-16">
+            <h2 className="text-5xl md:text-7xl font-bold text-center text-gray-900 mb-2 leading-tight">
+              Join Us at <span className="text-blue-600">IIT Kharagpur</span>
+            </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="z-20">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-100 to-blue-600 text-transparent bg-clip-text">
-                International Conference on Frontiers in Surface Engineering and
-                Additive Manufacturing
-              </h1>
-              <p className="text-xl mb-6">
-                Exploring Advanced Materials and Critical Minerals for
-                Sustainable Energy Transformation
-              </p>
-              <p className="text-lg mb-8 italic">
-                January 21-23, 2026 | IIT Kharagpur, India
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <Link
-                  href="/registration"
-                  className="bg-white text-blue-800 hover:bg-blue-100 px-6 py-3 rounded-md font-medium transition-colors duration-300"
-                >
-                  Register Now
-                </Link>
-                <Link
-                  href="/about-event"
-                  className="border border-white text-white hover:bg-white hover:text-blue-800 px-6 py-3 rounded-md font-medium transition-colors duration-300"
-                >
-                  Learn More
-                </Link>
-              </div>
-            </div>
-            <div className="hidden md:block">
-              <div className="relative"></div>
+
+          {/* Conference Details */}
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-3xl md:text-5xl font-bold mb-6 text-blue-600 leading-tight">
+              International Conference on Frontiers in Surface Engineering and
+              Additive Manufacturing
+            </h1>
+            <p className="text-lg md:text-xl text-gray-700 mb-6 font-medium">
+              Exploring Advanced Materials and Critical Minerals for Sustainable
+              Energy Transformation
+            </p>
+            <p className="text-xl font-bold text-blue-600 mb-10">
+              January 21-23, 2026 | IIT Kharagpur, India
+            </p>
+            <div className="flex flex-wrap gap-5 justify-center">
+              <Link
+                href="/registration"
+                className="bg-blue-600 text-white hover:bg-blue-700 px-10 py-4 rounded-lg font-bold text-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 transform"
+              >
+                Register Now
+              </Link>
+              <Link
+                href="/about-event"
+                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-10 py-4 rounded-lg font-bold text-lg transition-all duration-300 hover:scale-105 transform"
+              >
+                Learn More
+              </Link>
             </div>
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent z-10"></div>
     </div>
   );
 };

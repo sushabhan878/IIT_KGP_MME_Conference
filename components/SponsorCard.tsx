@@ -4,9 +4,19 @@ type SponsorCardProps = {
   tier?: string;
   border: string;
   badge?: string;
+  logoSize?: "normal" | "large";
 };
 
-const SponsorCard = ({ name, logo, tier, border, badge }: SponsorCardProps) => {
+const SponsorCard = ({
+  name,
+  logo,
+  tier,
+  border,
+  badge,
+  logoSize = "normal",
+}: SponsorCardProps) => {
+  const logoHeight = logoSize === "large" ? "h-32" : "h-20";
+
   return (
     <div
       className={`bg-white rounded-xl p-6 shadow-md hover:shadow-lg 
@@ -15,7 +25,9 @@ const SponsorCard = ({ name, logo, tier, border, badge }: SponsorCardProps) => {
     >
       <div className="flex flex-col items-center text-center h-full justify-between">
         {/* Logo */}
-        <div className="h-20 w-full flex items-center justify-center">
+        <div
+          className={`${logoHeight} w-full flex items-center justify-center`}
+        >
           <img
             src={logo}
             alt={`${name} Logo`}

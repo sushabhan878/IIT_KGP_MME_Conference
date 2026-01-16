@@ -16,7 +16,7 @@ const Home = () => {
       <Navbar />
       <main className="flex-grow">
         {/* Full-width marquee highlighting abstract submission extension */}
-        <div className="sticky top-16 z-40 mx-[calc(50%-50vw)] w-screen border-y border-yellow-400/40 bg-gradient-to-r from-amber-100 via-yellow-100 to-amber-100">
+        {/* <div className="sticky top-16 z-40 mx-[calc(50%-50vw)] w-screen border-y border-yellow-400/40 bg-gradient-to-r from-amber-100 via-yellow-100 to-amber-100">
           <div className="relative overflow-hidden marquee-viewport">
             <div className="animate-marquee-immediate whitespace-nowrap py-3 text-amber-900">
               <span className="px-10 font-semibold tracking-wider uppercase">
@@ -52,10 +52,10 @@ const Home = () => {
               </span>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Full-width marquee highlighting publishers */}
-        <div className="sticky top-[calc(4rem+3rem)] z-40 mx-[calc(50%-50vw)] w-screen border-y border-blue-400/30 bg-gradient-to-r from-blue-500/80 via-blue-400/50 to-blue-500/80 backdrop-blur-sm">
+        <div className="sticky top-16 z-40 mx-[calc(50%-50vw)] w-screen border-y border-blue-400/30 bg-gradient-to-r from-blue-500/80 via-blue-400/50 to-blue-500/80 backdrop-blur-sm">
           <div className="relative overflow-hidden marquee-viewport">
             <div className="animate-marquee-immediate whitespace-nowrap py-3 text-black">
               <span className="px-10 font-semibold tracking-wider uppercase">

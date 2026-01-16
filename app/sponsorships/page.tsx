@@ -18,7 +18,29 @@ const Sponsorships = () => {
               <div className="flex flex-col items-center h-full">
                 <div className="mb-4 h-24 w-full flex items-center justify-center">
                   <img
-                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1766049440/WhatsApp_Image_2025-12-18_at_14.41.22-removebg-preview_bbyy4d.png"
+                    src="https://ik.imagekit.io/fseam/sponsors/OIP.webp"
+                    alt="SPARK Logo"
+                    className="h-full w-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = "none";
+                    }}
+                  />
+                </div>
+                <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">
+                  SPARC
+                </h4>
+                <span className="text-xs font-medium text-purple-700 bg-purple-50 px-3 py-1 rounded-full">
+                  Platinum Sponsor
+                </span>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow border-t-4 border-purple-500 flex-1 min-w-[220px] max-w-[320px]">
+              <div className="flex flex-col items-center h-full">
+                <div className="mb-4 h-24 w-full flex items-center justify-center">
+                  <img
+                    src="https://ik.imagekit.io/fseam/sponsors/WhatsApp%20Image%202025-12-18%20at%2014.41.22.jpeg"
                     alt="ANRF Logo"
                     className="h-full w-full object-contain"
                     onError={(e) => {
@@ -40,7 +62,7 @@ const Sponsorships = () => {
               <div className="flex flex-col items-center h-full">
                 <div className="mb-4 h-24 w-full flex items-center justify-center">
                   <img
-                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1767329192/OIP_ig0mow.webp"
+                    src="https://ik.imagekit.io/fseam/sponsors/Indian_Space_Research_Organisation_Logo.svg"
                     alt="ISRO Logo"
                     className="h-full w-full object-contain"
                     onError={(e) => {
@@ -62,8 +84,8 @@ const Sponsorships = () => {
               <div className="flex flex-col items-center h-full">
                 <div className="mb-4 h-24 w-full flex items-center justify-center">
                   <img
-                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1766323152/WhatsApp_Image_2025-12-21_at_18.37.07_xy9vnq.jpg"
-                    alt="SPARK Logo"
+                    src="https://ik.imagekit.io/fseam/sponsors/WhatsApp%20Image%202026-01-06%20at%2023.47.41.jpeg"
+                    alt="ISRO Logo"
                     className="h-full w-full object-contain"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
@@ -72,7 +94,7 @@ const Sponsorships = () => {
                   />
                 </div>
                 <h4 className="text-lg font-semibold text-center mb-2 text-gray-900">
-                  SPARC
+                  Indian National Science Academy (INSA)
                 </h4>
                 <span className="text-xs font-medium text-purple-700 bg-purple-50 px-3 py-1 rounded-full">
                   Platinum Sponsor
@@ -82,10 +104,37 @@ const Sponsorships = () => {
           </div>
           {/* Sponsors Section */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10 place-items-center">
+            {/* Technical Sponsor */}
+
+            <SponsorCard
+              name="INAE"
+              logo="https://ik.imagekit.io/fseam/sponsors/WhatsApp%20Image%202026-01-06%20at%2018.13.26.jpeg"
+              tier="Technical Sponsor"
+              border="border-blue-400"
+              badge="text-blue-700 bg-blue-100"
+            />
+
             {/* Gold Sponsor */}
+
+            <SponsorCard
+              name="Damodar Valley Corporation (DVC)"
+              logo="https://ik.imagekit.io/fseam/sponsors/Damodar_Valley_Corporation_Logo.svg"
+              tier="Gold Sponsor"
+              border="border-yellow-400"
+              badge="text-yellow-700 bg-yellow-50"
+            />
+
+            <SponsorCard
+              name="International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI)"
+              logo="https://ik.imagekit.io/fseam/sponsors/WhatsApp%20Image%202026-01-12%20at%2021.45.03.jpeg"
+              tier="Gold Sponsor"
+              border="border-yellow-400"
+              badge="text-yellow-700 bg-yellow-50"
+            />
+
             <SponsorCard
               name="Ametek India"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429976/p-1290-9-ametek-logo-png-transparent-logo-591548730419_mm7efi.png"
+              logo="https://ik.imagekit.io/fseam/sponsors/Ametek.webp"
               tier="Gold Sponsor"
               border="border-yellow-400"
               badge="text-yellow-700 bg-yellow-50"
@@ -93,23 +142,7 @@ const Sponsorships = () => {
 
             <SponsorCard
               name="KAN-THT India"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1766038639/kan-tht-logo-removebg-preview_lj8gk1.png"
-              tier="Gold Sponsor"
-              border="border-yellow-400"
-              badge="text-yellow-700 bg-yellow-50"
-            />
-
-            <SponsorCard
-              name="Damodar Valley Corporation (DVC)"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767329578/OIP_1_wriuo6.webp"
-              tier="Gold Sponsor"
-              border="border-yellow-400"
-              badge="text-yellow-700 bg-yellow-50"
-            />
-
-            <SponsorCard
-              name="Indian National Science Academy (INSA)"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767724005/WhatsApp_Image_2026-01-06_at_23.47.41_wxr3y8.jpg"
+              logo="https://ik.imagekit.io/fseam/sponsors/WhatsApp%20Image%202025-12-18%20at%2010.25.00.jpeg"
               tier="Gold Sponsor"
               border="border-yellow-400"
               badge="text-yellow-700 bg-yellow-50"
@@ -118,23 +151,25 @@ const Sponsorships = () => {
             {/* Silver Sponsors */}
             <SponsorCard
               name="Carl Zeiss India"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429976/Carl_Zeiss_AG-Logo.wine_p0uxrr.png"
+              logo="https://ik.imagekit.io/fseam/sponsors/Zeiss-Logo.png"
               tier="Silver Sponsor"
               border="border-gray-400"
               badge="text-gray-700 bg-gray-100"
+              logoSize="large"
             />
 
             <SponsorCard
               name="Jeol India"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765429984/jeol_ogp-removebg-preview_l2dowm.png"
+              logo="https://ik.imagekit.io/fseam/sponsors/1725618304141.jpg"
               tier="Silver Sponsor"
               border="border-gray-400"
               badge="text-gray-700 bg-gray-100"
+              logoSize="large"
             />
 
             <SponsorCard
               name="Forevision Instruments (INDIA) PVT. LTD."
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767329192/WhatsApp_Image_2025-12-31_at_21.12.30_aqfkgw.jpg"
+              logo="https://ik.imagekit.io/fseam/sponsors/WhatsApp%20Image%202025-12-31%20at%2021.12.30.jpeg"
               tier="Silver Sponsor"
               border="border-gray-400"
               badge="text-gray-700 bg-gray-100"
@@ -142,7 +177,7 @@ const Sponsorships = () => {
 
             <SponsorCard
               name="Rtec Instruments"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767722619/WhatsApp_Image_2026-01-02_at_12.44.16_uwdlij.jpg"
+              logo="https://ik.imagekit.io/fseam/sponsors/WhatsApp%20Image%202026-01-02%20at%2012.44.16.jpeg"
               tier="Silver Sponsor"
               border="border-gray-400"
               badge="text-gray-700 bg-gray-100"
@@ -150,51 +185,52 @@ const Sponsorships = () => {
 
             <SponsorCard
               name="IR Technology Services Pvt Ltd"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1768112148/WhatsApp_Image_2026-01-09_at_15.01.49_xuqvqj.jpg"
+              logo="https://ik.imagekit.io/fseam/sponsors/WhatsApp%20Image%202026-01-09%20at%2015.01.49.jpeg"
               tier="Silver Sponsor"
               border="border-gray-400"
               badge="text-gray-700 bg-gray-100"
+              logoSize="large"
             />
 
-            {/* Technical Sponsor */}
-
-            <SponsorCard
-              name="INAE"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767722621/WhatsApp_Image_2026-01-06_at_18.13.26_uip1f1.jpg"
-              tier="Technical Sponsor"
-              border="border-blue-400"
-              badge="text-blue-700 bg-blue-100"
-            />
-
-            {/* Sponsors */}
-            <SponsorCard
-              name="Ducom Instruments"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430782/logo_ducom-removebg-preview_lzu0xr.png"
-              border="border-blue-400"
-            />
-
-            <SponsorCard
-              name="Steel Authority of India Limited"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430783/steel-authority-of-india-vector-logo-115742587135vlvf4po38-removebg-preview_wytnko.png"
-              border="border-blue-400"
-            />
-
-            <SponsorCard
-              name="The Center of Artificial Intelligence and Environmental Sustainability (CAIES)"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765782093/WhatsApp_Image_2025-12-11_at_13.53.37_jrqfzw.jpg"
-              border="border-blue-400"
-            />
-
-            <SponsorCard
-              name="CSIR-CSIO"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1765430790/CSIR_skfcbs.png"
-              border="border-blue-400"
-            />
+            {/* Bronze Sponsors */}
 
             <SponsorCard
               name="CSIR-IMMT"
-              logo="https://res.cloudinary.com/damnmi4ya/image/upload/v1767722619/WhatsApp_Image_2026-01-06_at_18.06.33_olabvo.jpg"
-              border="border-blue-400"
+              logo="https://ik.imagekit.io/fseam/sponsors/WhatsApp%20Image%202026-01-06%20at%2018.06.33.jpeg"
+              tier="Bronze Sponsor"
+              border="border-orange-400"
+              badge="text-orange-700 bg-orange-100"
+              logoSize="large"
+            />
+            <SponsorCard
+              name="Steel Authority of India Limited"
+              logo="https://ik.imagekit.io/fseam/sponsors/OIP%20(2).webp"
+              tier="Bronze Sponsor"
+              border="border-orange-400"
+              badge="text-orange-700 bg-orange-100"
+              logoSize="large"
+            />
+            <SponsorCard
+              name="The Center of Artificial Intelligence and Environmental Sustainability (CAIES)"
+              logo="https://ik.imagekit.io/fseam/sponsors/WhatsApp%20Image%202025-12-11%20at%2013.53.37.jpeg"
+              tier="Bronze Sponsor"
+              border="border-orange-400"
+              badge="text-orange-700 bg-orange-100"
+            />
+            <SponsorCard
+              name="Ducom Instruments"
+              logo="https://ik.imagekit.io/fseam/sponsors/OIP%20(1).webp"
+              tier="Bronze Sponsor"
+              border="border-orange-400"
+              badge="text-orange-700 bg-orange-100"
+            />
+            <SponsorCard
+              name="Laserline Inc."
+              logo="https://ik.imagekit.io/fseam/sponsors/OIP%20(3).webp"
+              tier="Bronze Sponsor"
+              border="border-orange-400"
+              badge="text-orange-700 bg-orange-100"
+              logoSize="large"
             />
           </div>
         </div>

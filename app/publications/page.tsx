@@ -20,20 +20,21 @@ const Publication = () => {
               <div className="rounded-2xl border border-slate-800 bg-slate-900/60 backdrop-blur-md p-6 shadow-lg shadow-slate-900/40">
                 <div className="flex flex-col sm:flex-row gap-4 items-start">
                   <img
-                    src="https://tse1.mm.bing.net/th/id/OIP.KbX_izxBv6lcqbvKAOkXdAAAAA?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
-                    alt="Lasers in Engineering Journal Cover"
+                    src="https://ik.imagekit.io/fseam/11665.webp"
+                    alt="Journal Cover"
                     className="w-32 h-auto rounded-lg border border-slate-700 shadow-md"
                   />
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold mb-2 text-slate-50">
-                      Lasers in Engineering
+                      Journal of Materials Engineering and Performance
                     </h3>
                     <p className="text-slate-400 text-sm mb-2">
-                      Old City Publishing
+                      Springer Nature
                     </p>
                     <p className="text-slate-300 text-sm">
-                      A peer-reviewed journal covering advances in laser
-                      technology and its applications in engineering fields.
+                      JMEP publishes peer-reviewed research on materials
+                      engineering that addresses practical engineering
+                      challenges.
                     </p>
                   </div>
                 </div>
@@ -65,21 +66,20 @@ const Publication = () => {
               <div className="rounded-2xl border border-slate-800 bg-slate-900/60 backdrop-blur-md p-6 shadow-lg shadow-slate-900/40">
                 <div className="flex flex-col sm:flex-row gap-4 items-start">
                   <img
-                    src="https://res.cloudinary.com/damnmi4ya/image/upload/v1767327946/11665_zwbboe.webp"
-                    alt="Journal Cover"
+                    src="https://tse1.mm.bing.net/th/id/OIP.KbX_izxBv6lcqbvKAOkXdAAAAA?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+                    alt="Lasers in Engineering Journal Cover"
                     className="w-32 h-auto rounded-lg border border-slate-700 shadow-md"
                   />
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold mb-2 text-slate-50">
-                      Journal of Materials Engineering and Performance
+                      Lasers in Engineering
                     </h3>
                     <p className="text-slate-400 text-sm mb-2">
-                      Springer Nature
+                      Old City Publishing
                     </p>
                     <p className="text-slate-300 text-sm">
-                      JMEP publishes peer-reviewed research on materials
-                      engineering that addresses practical engineering
-                      challenges.
+                      A peer-reviewed journal covering advances in laser
+                      technology and its applications in engineering fields.
                     </p>
                   </div>
                 </div>
