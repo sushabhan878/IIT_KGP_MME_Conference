@@ -1,19 +1,38 @@
 const studentCoordinater = [
-
+    {
+        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1766575121/tapas_r0hwof.jpg",
+        name: "Mr. Tapas Bera",
+        title: "Research Scholar",
+    },
+    {
+        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1766575121/abhinay_o8ik8m.jpg",
+        name: "Mr. Abhinay Rajput",
+        title: "Research Scholar",
+    },
+            {
+        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1766725486/WhatsApp_Image_2025-12-24_at_20.28.36_hb9d8b.jpg",
+        name: "Mr. Kishan Kumar",
+        title: "Research Scholar",
+    },
     {
         name: "Bidipta Dam",
-        title: "",
-        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
+        title: "Research Scholar",
+        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1766575121/bidipta_xjerrd.jpg"
     },
     {
         name: "Barsha Nag",
-        title: "",
-        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
+        title: "Research Scholar",
+        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1766575121/barsha_php4kb.jpg"
+    },
+    {
+        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg",
+        name: "Shree Krishna",
+        title: "Research Scholar",
     },
     {
         name: "Sushabhan Majumdar",
-        title: "Student Technical Coordinater",
-        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1756465899/Profile-avatar-Graphics-48866790-1_plqpgn.jpg"
+        title: "B-Tech UG",
+        image: "https://res.cloudinary.com/damnmi4ya/image/upload/v1766575157/Suite_Profile_Pic_xlrpl9.png"
     }
 ]
 

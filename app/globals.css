@@ -39,6 +39,20 @@
   animation: marquee 14s linear infinite;
 }
 
+@keyframes marquee-immediate {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-immediate {
+  display: inline-block;
+  animation: marquee-immediate 30s linear infinite;
+}
+
 .marquee-viewport {
   -webkit-mask-image: linear-gradient(
     to right,
