@@ -23,8 +23,8 @@ const Accomodation = () => {
       description:
         "Spacious residential accommodation with air conditioning, attached bathrooms, and multi-cuisine dining facility. Perfect for both short and extended stays with 24/7 support services.",
       image: "https://ik.imagekit.io/fseam/OIP%20(1).webp",
-      latitude: 22.3141,
-      longitude: 87.3089,
+      latitude: 22.316785551393192,
+      longitude: 87.29608044047738,
       locationName: "BR Ambedkar Hall Guest House, IIT Kharagpur",
     },
     {
