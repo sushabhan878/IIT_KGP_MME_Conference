@@ -5,12 +5,12 @@ export interface IndianSpeaker {
 }
 
 const indianSpeakers: IndianSpeaker[] = [
-  {
-    name: "Prof. Goutam K. Dey",
-    affiliation: "Distinguished Scientist, Bhabha Atomic Research Centre",
-    image:
-      "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20101057.png",
-  },
+  // {
+  //   name: "Prof. Goutam K. Dey",
+  //   affiliation: "Distinguished Scientist, Bhabha Atomic Research Centre",
+  //   image:
+  //     "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20101057.png",
+  // },
   {
     name: "Prof. N K Mukhopahdyay",
     affiliation: "IIT BHU",
@@ -76,13 +76,13 @@ const indianSpeakers: IndianSpeaker[] = [
     image:
       "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20101211.png",
   },
-  {
-    name: "Prof. G. L. Samuel",
-    affiliation:
-      "Professor, Department of Mechanical Engineering, IIT Madras, India",
-    image:
-      "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20101217.png",
-  },
+  // {
+  //   name: "Prof. G. L. Samuel",
+  //   affiliation:
+  //     "Professor, Department of Mechanical Engineering, IIT Madras, India",
+  //   image:
+  //     "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20101217.png",
+  // },
   {
     name: "Prof. Harpreet Singh",
     affiliation: "Professor, IIT Ropar, India",
@@ -115,12 +115,12 @@ const indianSpeakers: IndianSpeaker[] = [
     image:
       "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20101248.png",
   },
-  {
-    name: "Prof. Udaya Bhatt K",
-    affiliation: "NIT Surathkal",
-    image:
-      "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20101253.png",
-  },
+  // {
+  //   name: "Prof. Udaya Bhatt K",
+  //   affiliation: "NIT Surathkal",
+  //   image:
+  //     "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20101253.png",
+  // },
   {
     name: "Prof. Anindya Basu",
     affiliation:

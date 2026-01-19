@@ -19,20 +19,20 @@ const foreignSpeakers: ForeignSpeaker[] = [
     image:
       "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20100946.png",
   },
-  {
-    name: "Prof. Juergen Eckert",
-    affiliation:
-      "Erich Schmid Institute of Materials Science, Univ. of Leoben, Austria",
-    image:
-      "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20100952.png",
-  },
-  {
-    name: "Prof. Bekir S. Yilbas",
-    affiliation:
-      "King Fahd University of Petroleum and Minerals (KFUPM), Saudi Arabia",
-    image:
-      "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20100959.png",
-  },
+  // {
+  //   name: "Prof. Juergen Eckert",
+  //   affiliation:
+  //     "Erich Schmid Institute of Materials Science, Univ. of Leoben, Austria",
+  //   image:
+  //     "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20100952.png",
+  // },
+  // {
+  //   name: "Prof. Bekir S. Yilbas",
+  //   affiliation:
+  //     "King Fahd University of Petroleum and Minerals (KFUPM), Saudi Arabia",
+  //   image:
+  //     "https://ik.imagekit.io/fseam/Speakers/Screenshot%202026-01-16%20100959.png",
+  // },
   {
     name: "Prof. Dr. Frank Brückner",
     affiliation:
