@@ -166,7 +166,7 @@ const Accomodation = () => {
           </p>
 
           <a
-            href="/stay-details.txt"
+            href="/stay-details.pdf"
             download
             className="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold mb-8 transition-colors"
           >

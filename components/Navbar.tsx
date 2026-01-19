@@ -111,8 +111,8 @@ const Navbar = () => {
                 <div className="absolute top-2 left-4 w-0 h-0 border-l-8 border-r-8 border-b-8 border-l-transparent border-r-transparent border-b-gray-200"></div>
                 <div className="absolute top-2.5 left-4 w-0 h-0 border-l-8 border-r-8 border-b-8 border-l-transparent border-r-transparent border-b-white"></div>
 
-                <div className="mt-2 w-64 rounded-lg shadow-xl bg-white border border-gray-200 overflow-hidden">
-                  <div className="py-2" role="menu">
+                <div className="mt-2 w-64 rounded-lg shadow-xl bg-white border border-gray-200 overflow-hidden" role="menu">
+                  <div className="py-2">
                     <Link
                       href="/organizors"
                       className="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150 border-l-4 border-transparent hover:border-blue-600"
