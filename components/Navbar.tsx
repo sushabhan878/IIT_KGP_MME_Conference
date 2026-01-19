@@ -317,7 +317,7 @@ const Navbar = () => {
                     Technical Schedule
                   </Link>
                   <Link
-                    href="/preconference-certification"
+                    href="/preconference"
                     className="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150"
                   >
                     Preconference Certification
