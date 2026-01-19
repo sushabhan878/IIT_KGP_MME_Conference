@@ -1,10 +1,91 @@
-import React from 'react';
-import PageLayout from '@/components/PageLayout';
+import React from "react";
+import PageLayout from "@/components/PageLayout";
+import Image from "next/image";
 
 const PreconferenceCertificate = () => {
   return (
     <PageLayout>
+      {/* Full-width Banner Section */}
+      <div className="w-screen relative left-1/2 right-1/2 -mx-[50vw] my-[-50] mb-12 overflow-hidden">
+        <div className="relative w-full aspect-video">
+          <Image
+            src="https://ik.imagekit.io/fseam/Pre%20Conference%20Banner%20Print.png"
+            alt="Preconference Banner"
+            fill
+            className="object-contain"
+            priority
+            sizes="100vw"
+          />
+        </div>
+      </div>
+
       <div className="container mx-auto px-4 py-12 max-w-5xl">
+        {/* Download Button */}
+        <div className="mb-8 flex justify-center">
+          <a
+            href="/Pre-Conference Schedule.pdf"
+            download
+            className="inline-flex items-center gap-1 md:gap-2 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-semibold px-4 md:px-8 py-2 md:py-3 text-sm md:text-base rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-0.5"
+          >
+            <span className="text-lg md:text-xl">📥</span>
+            <span className="hidden sm:inline">
+              Download Pre-Conference Schedule
+            </span>
+            <span className="sm:hidden">Download Schedule</span>
+          </a>
+        </div>
+
+        {/* Poster Section */}
+        <div className="mb-12 grid gap-6 lg:grid-cols-2 items-start">
+          <div className="lg:col-span-1">
+            <div className="relative w-full aspect-[3/4] overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-300 border border-gray-200">
+              <Image
+                src="https://ik.imagekit.io/fseam/Pre%20Conference%20Poster%20for%20Print.png"
+                alt="Course Poster"
+                fill
+                className="object-contain"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
+          </div>
+          <div className="lg:col-span-1">
+            <div className="bg-gradient-to-br from-orange-50 via-amber-50 to-orange-50 rounded-2xl p-8 border-2 border-orange-300 shadow-xl">
+              <h3 className="text-2xl font-bold text-orange-800 mb-5 flex items-center gap-2">
+                <span className="text-3xl">🎓</span>
+                About This Course
+              </h3>
+              <p className="text-gray-700 mb-6 leading-relaxed font-medium">
+                Join us for an intensive residential certificate course on
+                advanced surface engineering techniques. This course covers the
+                latest methodologies and industrial applications for corrosion
+                prevention and material protection.
+              </p>
+              <div className="space-y-4 border-t border-orange-200 pt-4">
+                <div className="flex items-start">
+                  <span className="text-2xl mr-4 text-orange-600">📅</span>
+                  <div>
+                    <p className="font-bold text-orange-800">Dates</p>
+                    <p className="text-gray-700">19th - 20th January 2026</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <span className="text-2xl mr-4 text-orange-600">📍</span>
+                  <div>
+                    <p className="font-bold text-orange-800">Location</p>
+                    <p className="text-gray-700">IIT Kharagpur Campus</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <span className="text-2xl mr-4 text-orange-600">⏰</span>
+                  <div>
+                    <p className="font-bold text-orange-800">Duration</p>
+                    <p className="text-gray-700">08:00 hrs – 17:00 hrs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* Header */}
         <div className="text-center mb-10">
           <p className="text-sm font-semibold tracking-wide text-indigo-300 uppercase">
@@ -33,11 +114,11 @@ const PreconferenceCertificate = () => {
               corrosion-based degradation usually encountered by engineering
               components in power plants, oil and gas pipelines, aerospace,
               automotive and marine sectors, along with the prevention of
-              component-specific corrosion through different surface
-              engineering techniques. A brief overview of various surface
-              engineering techniques, process optimization and their industrial
-              applications will be discussed. Techniques used for corrosion
-              testing and analysing its mechanisms will also be covered.
+              component-specific corrosion through different surface engineering
+              techniques. A brief overview of various surface engineering
+              techniques, process optimization and their industrial applications
+              will be discussed. Techniques used for corrosion testing and
+              analysing its mechanisms will also be covered.
             </p>
 
             <h3 className="text-xl font-semibold text-orange-300 mb-3">
@@ -104,10 +185,11 @@ const PreconferenceCertificate = () => {
               INR 15,000 + GST per delegate
             </p>
             <p className="mt-2 text-xs md:text-sm text-slate-200 leading-snug">
-              <span className="font-semibold">Concession:</span> For delegates already
-              registered for the main conference, the preconference course fee is
-              <span className="font-semibold"> INR 7,500 + GST</span>{' '}
-              (<span className="font-semibold">50% waiver</span>).
+              <span className="font-semibold">Concession:</span> For delegates
+              already registered for the main conference, the preconference
+              course fee is
+              <span className="font-semibold"> INR 7,500 + GST</span> (
+              <span className="font-semibold">50% waiver</span>).
             </p>
           </div>
         </section>
@@ -151,7 +233,7 @@ const PreconferenceCertificate = () => {
                 <p className="font-semibold">Mr. Rishikesh Mishra</p>
                 <p>Manager – Technical Services, AIC</p>
                 <p>
-                  Email:{' '}
+                  Email:{" "}
                   <a
                     href="mailto:rishikesh@naceindia.org"
                     className="text-sky-300 hover:text-sky-200 underline"
@@ -160,7 +242,7 @@ const PreconferenceCertificate = () => {
                   </a>
                 </p>
                 <p>
-                  Cell / WhatsApp:{' '}
+                  Cell / WhatsApp:{" "}
                   <a
                     href="tel:+919820459356"
                     className="text-sky-300 hover:text-sky-200 underline"
@@ -183,7 +265,7 @@ const PreconferenceCertificate = () => {
                 Engineering, IIT Kharagpur
               </p>
               <p>
-                Email:{' '}
+                Email:{" "}
                 <a
                   href="mailto:duttamajumdarjyotsna@gmail.com"
                   className="text-sky-300 hover:text-sky-200 underline"
@@ -215,15 +297,15 @@ const PreconferenceCertificate = () => {
               Important – Mandatory Step
             </p>
             <p className="text-xs md:text-sm text-red-50 leading-relaxed">
-              <span className="font-bold">After completion of payment,</span>{' '}
+              <span className="font-bold">After completion of payment,</span>{" "}
               the registration form <span className="font-bold">must</span> be
-              duly filled in and emailed to{' '}
+              duly filled in and emailed to{" "}
               <a
                 href="mailto:fseam.iitkgp.2025@gmail.com"
                 className="font-semibold text-amber-200 underline hover:text-amber-100"
               >
                 fseam.iitkgp.2025@gmail.com
-              </a>{' '}
+              </a>{" "}
               for your registration to be processed and confirmed.
             </p>
           </div>
